@@ -1827,6 +1827,7 @@
         border-radius: 0.5em;
         display: flex;
         height: 2em;
+        padding: 0.225em;
         z-index: 1;
         width: 2em;
     }
