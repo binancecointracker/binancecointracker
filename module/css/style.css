@@ -147,9 +147,9 @@
         user-select: none;
     }
     .parent-container{
-        height: 100%;
+        height: 100vh;
         position: fixed;
-        width: 100%;
+        width: 100vw;
     }
     body::selection{
         background: none;

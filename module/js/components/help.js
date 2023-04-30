@@ -51,6 +51,52 @@ class Help extends HTMLElement{
                                                     <div class="accordion-image-container">
                                                         <img src="img/faq.png" class="img-fluid">
                                                     </div>
+                                                    <span class="accordion-header-txt">Best way to contact Binance CoinTracker</span>
+                                                </div>
+                                                <!-- Right container -->
+                                                <div class="accordion-image-left"><img src="img/chevron.png"" class="img-fluid"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- This div holds the content to be displayed-->
+                                    <div class="course-panel">
+                                        <!-- Top container -->
+                                        <div class="container">
+                                            <p class="panel-large-txt">Google Chat</p>
+                                            <!-- List container -->
+                                            <ol class="accordion-ol">
+                                                <li class="accordion-li">You can easily contact us on Google Chat through our Official Email Address "binancecointracker@gmail.com".</li>
+                                            </ol>
+                                        </div>
+                                        <div class="accordion-line"></div>
+                                        <!-- Bottom container -->
+                                        <div class="container">
+                                            <div class="accordion-question">Wasn't this enough?</div>
+                                            <div class="accordion-btn" onclick="document.location.href='./js/support.html'">
+                                                <span class="accordion-btn-txt">Contact Binance CoinTracker Support</span>
+                                                <div class="accordion-btn-img">
+                                                    <img src="img/telegram.png" class="img-fluid">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- -------------------- -------------------- -------------------- -->
+                                <!-- -------------------- -------------------- -------------------- -->
+
+
+                                
+                                <!-- --------------------  -------------------- -->
+                                <div class="accordion-parent">	
+                                    <!-- the button holds the title of the accordion-->
+                                    <div class="course-accordion">
+                                        <div class="container" >
+                                            <div class="accordion-header-wrap" >
+                                                <!-- Left container-->
+                                                <div class="accordion-left-container">
+                                                    <div class="accordion-image-container">
+                                                        <img src="img/faq.png" class="img-fluid">
+                                                    </div>
                                                     <span class="accordion-header-txt">How do I withdraw from Binance CoinTracker</span>
                                                 </div>
                                                 <!-- Right container -->

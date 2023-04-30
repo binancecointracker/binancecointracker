@@ -408,7 +408,7 @@ function isUnverified() {
                 <div class="userinfoslide-note-step-icon">
                     <img src="img/bullet.png" class="img-fluid">
                 </div>
-                <div class="userinfoslide-note-txt userinfoslide-note-mar">Enter the you used to register with us Binance CoinTracker</div>
+                <div class="userinfoslide-note-txt userinfoslide-note-mar">Enter your Email you used to register with us.</div>
             </div>
             <!--  -->
             <div class="userinfoslide-note-step">

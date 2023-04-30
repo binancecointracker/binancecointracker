@@ -155,7 +155,7 @@ class Home extends HTMLElement{
                         <div class="container">
                             <div class="row">
                                 <div class="col-12">
-                                    <div class="hmepg-token-container">
+                                    <div class="hmepg-token-container" style="padding-bottom:2.5em;">
                                         
                                         <label class="hmepg-token-acc-txt one-line">Your Token Accounts</label>
                                         

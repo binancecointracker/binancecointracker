@@ -654,7 +654,7 @@
         @media screen and (max-width: 650px) {
             /*  */
             .add-token-parent {
-                height: 85%;
+                height: 92.5%;
             }
             /* -------------------- */
         }
@@ -668,7 +668,7 @@
         @media screen and  (min-width: 650px) and (max-width: 992px) {
             /*  */
             .add-token-parent {
-                height: 77.5%;
+                height: 82.5%;
             }
             /* -------------------- */
         }
