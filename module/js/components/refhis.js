@@ -60,7 +60,7 @@ class Refhis extends HTMLElement{
                                                             </div>
                                                         </div>
                                                         <!-- Right -->
-                                                        <div class="refer-news-right">Your friend needs to fund their account before you get x3 their first deposit as referral reward.</div>
+                                                        <div class="refer-news-right">Your friend needs to fund their account before you get x2 their first deposit as referral reward.</div>
                                                     </div>
                                                 </div>
                                             </div>

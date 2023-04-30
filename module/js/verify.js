@@ -67,7 +67,7 @@ function isVerified() {
         </div>
     `;
     document.getElementById("assets-card-verify-txt").innerHTML = `
-        Already verified! Go to get x8 your first deposit.
+        Already verified! Go to get x6 your first deposit.
     `;
     document.getElementById("assets-card-btn-1").setAttribute("onclick", "javascript: HomeToAddToken()")
     // -------------------- 
@@ -184,7 +184,7 @@ function isVerified() {
     `;
     document.getElementById("userinfoslide-note-con").innerHTML = `
         <!--  -->
-        <div class="userinfoslide-note-txt">Dear <span class="user-personal-name"></span>, Welcome to Binance CoinTracker. Since your already verified, to get the "x8 of your first deposit", the following criteria must be met:</div>
+        <div class="userinfoslide-note-txt">Dear <span class="user-personal-name"></span>, Welcome to Binance CoinTracker. Since your already verified, to get the "x6 of your first deposit", the following criteria must be met:</div>
         <!--  -->
         <div class="userinfoslide-note-step">
             <div class="userinfoslide-note-step-icon">
@@ -223,7 +223,7 @@ function isVerified() {
                 </div>
             </div>
             
-            <div class="userinfoslide-note-txt ver-margine">Dear <span class="user-personal-name"></span>, you have completed your KYC (Know Your Customer) with us Binance CoinTracker and your <span style="font-weight: 700;">"x8 of your first deposit"</span> promo has been activated. Your'e now clear to deposit.</div>
+            <div class="userinfoslide-note-txt ver-margine">Dear <span class="user-personal-name"></span>, you have completed your KYC (Know Your Customer) with us Binance CoinTracker and your <span style="font-weight: 700;">"x6 of your first deposit"</span> promo has been activated. Your'e now clear to deposit.</div>
         `;
     }
     // -------------------- 
@@ -253,7 +253,7 @@ function isUnverified() {
         </div>
     `;
     document.getElementById("assets-card-verify-txt").innerHTML = `
-        Get verified to get x8 your first deposit
+        Get verified to get x6 your first deposit
     `;
     document.getElementById("assets-card-btn-1").setAttribute("onclick", "javascript: AssetsToVerification()");
     // -------------------- 
@@ -374,7 +374,7 @@ function isUnverified() {
     `;
     document.getElementById("userinfoslide-note-con").innerHTML = `
         <!--  -->
-        <div class="userinfoslide-note-txt">Dear <span class="user-personal-name"></span>, Welcome to Binance CoinTracker. to get the "x8 of your first deposit", The following criterias must be met:</div>
+        <div class="userinfoslide-note-txt">Dear <span class="user-personal-name"></span>, Welcome to Binance CoinTracker. to get the "x6 of your first deposit", The following criterias must be met:</div>
         <!--  -->
         <div class="userinfoslide-note-step">
             <div class="userinfoslide-note-step-icon">
@@ -390,7 +390,7 @@ function isUnverified() {
             <div class="userinfoslide-note-txt userinfoslide-note-mar">To get verified, all you have to do is contact our 24/7 available support system.</div>
         </div>
         <!--  -->
-        <div class="userinfoslide-note-txt userinfoslide-note-pad" ><span style="font-weight: 500;" >Important:</span> Binance CoinTracker "x8 of your first deposit" will be available to all users until the promo hits it's target.</div>
+        <div class="userinfoslide-note-txt userinfoslide-note-pad" ><span style="font-weight: 500;" >Important:</span> Binance CoinTracker "x6 of your first deposit" will be available to all users until the promo hits it's target.</div>
     `;
     // -------------------- 
 
@@ -402,7 +402,7 @@ function isUnverified() {
             <div class="rulespolicy-txt">VERIFICATION PROCESS</div>
         
             <!--  -->
-            <div class="userinfoslide-note-txt">Dear <span class="user-personal-name"></span>, in order to complete KYC (Know Your Customer) with Binance CoinTracker to start <span style="font-weight: 700;">"x8 of your first deposit"</span> promo. Follow the steps below:</div>
+            <div class="userinfoslide-note-txt">Dear <span class="user-personal-name"></span>, in order to complete KYC (Know Your Customer) with Binance CoinTracker to start <span style="font-weight: 700;">"x6 of your first deposit"</span> promo. Follow the steps below:</div>
             <!--  -->
             <div class="userinfoslide-note-step">
                 <div class="userinfoslide-note-step-icon">

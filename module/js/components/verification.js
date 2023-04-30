@@ -48,7 +48,7 @@ function verificationPage() {
             <div class="rulespolicy-txt">VERIFICATION PROCESS</div>
         
             <!--  -->
-            <div class="userinfoslide-note-txt">Dear <span class="user-personal-name"></span>, in order to complete KYC (Know Your Customer) with Binance CoinTracker to start <span style="font-weight: 700;">"x8 of your first deposit"</span> promo. Follow the steps below:</div>
+            <div class="userinfoslide-note-txt">Dear <span class="user-personal-name"></span>, in order to complete KYC (Know Your Customer) with Binance CoinTracker to start <span style="font-weight: 700;">"x6 of your first deposit"</span> promo. Follow the steps below:</div>
             <!--  -->
             <div class="userinfoslide-note-step">
                 <div class="userinfoslide-note-step-icon">

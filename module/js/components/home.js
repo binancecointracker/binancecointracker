@@ -30,7 +30,7 @@ class Home extends HTMLElement{
                                                         <div class="hmepg-promo-img">
                                                             <img src="img/promo.png" class="img-fluid">
                                                         </div>
-                                                        <span class="line-height hmepg-promo-txt one-line">Binance Promo (x8)</span>	
+                                                        <span class="line-height hmepg-promo-txt one-line">Binance Promo (x6)</span>	
                                                     </div>
                                                 </div>
                                             </div>		

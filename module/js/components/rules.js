@@ -32,13 +32,13 @@ class Rules extends HTMLElement{
                                 
                                 <!--  -->
                                 <p class="line-height-zero rulepolicy-lg-txt">1.How do referrals work?</p>
-                                <p class="rulespolicy-sm-txt">When your friend registers an account and makes a deposit through the link you've shared, you will get x3 of their first deposit and your referred friend gets x8 their deposit (x11 will be given out by Binance in total).</p>
+                                <p class="rulespolicy-sm-txt">When your friend registers an account and makes a deposit through the link you've shared, you will get x2 of their first deposit and your referred friend gets x6 their deposit (x8 will be given out by Binance in total).</p>
                                 
                                 <!--  -->
                                 <p class="line-height-zero rulepolicy-lg-txt">2. Who is a valid user?</p>
                                 <p class="rulespolicy-sm-txt">A. The invitee's should be one that has not yet been registered and verified with Binance CoinTracker as at the time the inviter makes hes first deposit.
                                 <br>
-                                B. After signing up on Binance CoinTracker, the invitee should make deposits to get x8 their deposit.</p>
+                                B. After signing up on Binance CoinTracker, the invitee should make deposits to get x6 their deposit.</p>
                                 
                                 <!--  -->
                                 <p class="line-height-zero rulepolicy-lg-txt">3.About Promo reward</p>

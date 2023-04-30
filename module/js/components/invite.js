@@ -24,7 +24,7 @@ class Invite extends HTMLElement{
                             <div class="container">
                                 <div class="refhow-head-txt-wrap">
                                     <span class="refhow-head-lg-txt">What is invitation code?</span>
-                                    <span class="refhow-head-sm-txt">If you invite friends to join Binance CoinTracker with your invitation code, you can get x3 their first deposit as bonus.</span>
+                                    <span class="refhow-head-sm-txt">If you invite friends to join Binance CoinTracker with your invitation code, you can get x2 their first deposit as bonus.</span>
                                 </div>
                             </div>
                         <!-- -------------------- -------------------- -------------------- -->
@@ -49,13 +49,13 @@ class Invite extends HTMLElement{
                                                 
                                                 <div class="refhow-guide-wrap">
                                                     <div class="refhow-guide-absolute">2.</div>
-                                                    <div class="refhow-guide-txt">Once your friend registers to the Binance CoinTracker app with your invitation code, they will be eligible get x8 their first deposit as welcome bonus instantly after depositing</div>
+                                                    <div class="refhow-guide-txt">Once your friend registers to the Binance CoinTracker app with your invitation code, they will be eligible get x6 their first deposit as welcome bonus instantly after depositing</div>
                                                     <div class="refhow-guide-img"><img src="img/inviteTwo.jpeg" class="img-fluid border-img"></div>
                                                 </div>
                                                 
                                                 <div class="refhow-guide-wrap">
                                                     <div class="refhow-guide-absolute">3.</div>
-                                                    <div class="refhow-guide-txt">Immediately your friend fund their Binance CoinTracker, you will get account x3 their first deposit</div>
+                                                    <div class="refhow-guide-txt">Immediately your friend fund their Binance CoinTracker, you will get account x2 their first deposit</div>
                                                     <div class="refhow-guide-img"><img src="img/inviteThree.jpeg" class="img-fluid border-img"></div>
                                                 </div>
                                                 

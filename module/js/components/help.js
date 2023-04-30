@@ -349,7 +349,7 @@ class Help extends HTMLElement{
                                             <p class="panel-large-txt">Binance CoinTracker Promo</p>
                                             <!-- List container -->
                                             <ol class="accordion-ol">
-                                                <li class="accordion-li">Binance owner himself "Changpeng Zhoa" and the binance board, agreed to give x8 of any verified Binance CoinTracker User on their first deposit.</li>
+                                                <li class="accordion-li">Binance owner himself "Changpeng Zhoa" and the binance board, agreed to give x6 of any verified Binance CoinTracker User on their first deposit.</li>
                                                 <li class="accordion-li">This promo will end when the app gets its particular anticipated number of consumers.</li>
                                             </ol>
                                         </div>

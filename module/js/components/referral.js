@@ -66,7 +66,7 @@ class Referral extends HTMLElement{
                                                 </div>
 
                                                 <div class="refer-lg-txt">
-                                                    REFER AND EARN! Invite one user and get x3 of your referred friends first deposit!
+                                                    REFER AND EARN! Invite one user and get x2 of your referred friends first deposit!
                                                 </div>
                                             </div>
                                         </div>
