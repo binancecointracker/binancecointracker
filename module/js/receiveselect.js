@@ -30,7 +30,7 @@ class ReceiveSelect extends HTMLElement{
                         </div>
                     </div>
                     
-                    <sendtokenloopscript></sendtokenloopscript>
+                    <div class="token-scroll-background"><sendtokenloopscript></sendtokenloopscript></div>
 
                     
                     <div class="add-token-display-background" id="add-token-display-background">

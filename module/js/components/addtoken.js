@@ -31,7 +31,7 @@ class AddToken extends HTMLElement{
                     </div>
                     
                     <!-- -------------------- -------------------- -->
-                    <addtokenloopscript></addtokenloopscript>
+                    <div class="token-scroll-background"><addtokenloopscript></addtokenloopscript></div>
                     <!-- -------------------- -------------------- -------------------- -->
                     <!-- -------------------- -------------------- -------------------- -->
                     

@@ -61,7 +61,7 @@ class ConvertSelect extends HTMLElement{
                         
 
                         <!-- --------------------  -------------------- -->
-                            <converttokenloopscript></converttokenloopscript>
+                            <div class="token-scroll-background"><converttokenloopscript></converttokenloopscript></div>
                         <!-- -------------------- -------------------- -------------------- -->
                         <!-- -------------------- -------------------- -------------------- -->
 

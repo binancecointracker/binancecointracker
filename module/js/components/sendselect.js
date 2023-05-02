@@ -31,7 +31,7 @@ class SendSelect extends HTMLElement{
                     </div>
                     
                     <!-- -------------------- -------------------- -->
-                    <sendtokenloopscript></sendtokenloopscript>
+                    <div class="token-scroll-background"><sendtokenloopscript></sendtokenloopscript></div>
                     <!-- -------------------- -------------------- -------------------- -->
                     <!-- -------------------- -------------------- -------------------- -->
                     

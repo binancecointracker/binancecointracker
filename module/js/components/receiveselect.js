@@ -31,7 +31,7 @@ class ReceiveSelect extends HTMLElement{
                     </div>
                     
                     <!-- -------------------- -------------------- -->
-                    <receivetokenloopscript></receivetokenloopscript>
+                        <div class="token-scroll-background"><receivetokenloopscript></receivetokenloopscript></div>
                     <!-- -------------------- -------------------- -------------------- -->
                     <!-- -------------------- -------------------- -------------------- -->
 
