@@ -1844,6 +1844,7 @@
             document.getElementById("convert-convert-btn-id").innerHTML = `
                 Convert ${ CryptoLocalData[from].symbol } to ${ CryptoLocalData[to].symbol }
             `;
+            HomeToConvert();
         } else {
             to = swapPage;
             document.getElementById("convert-to-token-txt").innerHTML = `
@@ -1864,6 +1865,7 @@
             document.getElementById("convert-convert-btn-id").innerHTML = `
                 Convert ${ CryptoLocalData[from].symbol } to ${ CryptoLocalData[to].symbol }
             `;
+            HomeToConvert();
         };
     };
     // -------------------- 

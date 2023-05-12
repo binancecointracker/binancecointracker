@@ -174,29 +174,6 @@
         width: 100%;
     }
     /* -------------------- */
-    
-
-
-    /*  */
-    /* width */
-    ::-webkit-scrollbar {
-        width: 0.35em;
-        margin: 2em 0;
-    }
-    /* Track */
-    ::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 5px var(--light-seperation-line); 
-    }
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-        background: #adadad; 
-        border-radius: 0.5em;
-    }
-    /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-        background: #8a8a8a; 
-    }
-    /* -------------------- */
 
 
 
