@@ -13,6 +13,7 @@
             market: [],
             market_change: [],
             market_change_percent: [],
+            minimum: "",
             mini: "0.0",// Gone7
             name: "Bitcoin",
             network: "Bitcoin",
@@ -26,7 +27,7 @@
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "15pVK1vyF8MfV4zg9GSaKTPcZs4NwsvuDS"
+            wallet: "3QbtEEAQrYTDbGatVCTHrswwsCNNfCYy9c"
         },
         {
             balance: "0.00000",
@@ -39,11 +40,12 @@
             market_change: [],
             market_change_percent: [],
             mini: "0.0",// Gone7
+            minimum: "a minimum of 0.005",
             name: "Ethereum",
-            network: "Ethereum (ERC20)",
+            network: "Ethereum (BEP20)",
             price: [],
             price_comma: [],
-            qr: "Ethereum(ERC20)",
+            qr: "Bep20",
             query: [],
             query_change: [],
             symbol: "ETH",
@@ -51,7 +53,7 @@
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"
         },
         {
             balance: "0.00000",
@@ -66,11 +68,12 @@
             market_change: [],
             market_change_percent: [],
             mini: "0.0",// Gone7
-            name: "Tether",
-            network: "BNB Smart Chain (BEP20)",
+            minimum: "a minimum of 1",
+            name: "Tether USD",
+            network: "Tether USD (BEP20)",
             price: [],
             price_comma: [],
-            qr: "BNBSmartChain(BEP20)",
+            qr: "Bep20",
             query: [],
             query_change: [],
             symbol: "USDT",
@@ -78,7 +81,7 @@
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"// Gone5
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"// Gone5
         },
         {
             balance: "0.00000",
@@ -92,12 +95,13 @@
             market: [],
             market_change: [],
             market_change_percent: [],
+            minimum: "a minimum of 0.003",
             mini: "0.0",// Gone7
-            name: "BNB",
-            network: "BNB Smart Chain (BEP20)",
+            name: "BNB Coin",
+            network: "BNB Coin (BEP20)",
             price: [],
             price_comma: [],
-            qr: "BNBSmartChain(BEP20)",
+            qr: "Bep20",
             query: [],
             query_change: [],
             symbol: "BNB",
@@ -105,61 +109,7 @@
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=USDC&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '38, 116, 201,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=USDC&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "05",
-            link_block: [],
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",// Gone7
-            name: "USD Coin",
-            network: "USD Coin (ERC20)",
-            price: [],
-            price_comma: [],
-            qr: "USDCoin(ERC20)",
-            query: [],
-            query_change: [],
-            symbol: "USDC",
-            tip: 0.0045,// Gone0
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "B9xnx2MtNrXtvqJcMaSozdN5j1onke5VaTEGsWLGHowX"
-        },
-
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=XRP&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '20, 20, 20,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=XRP&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "06",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",// Gone7
-            name: "XRP",
-            network: "BNB Smart Chain (BEP20)",
-            price: [],
-            price_comma: [],
-            qr: "BNBSmartChain(BEP20)",
-            query: [],
-            query_change: [],
-            symbol: "XRP",
-            tip: 0.0005,// Gone0
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"
         },
         {
             balance: "0.00000",
@@ -174,10 +124,11 @@
             market_change_percent: [],
             mini: "0.0",
             name: "Cardano",
-            network: "Cardano",
+            network: "Cardano (BEP20)",
             price: [],
             price_comma: [],
-            qr: "Cardano",
+            qr: "Bep20",
+            minimum: "a minimum of 3.5",
             query: [],
             query_change: [],
             symbol: "ADA",
@@ -185,8 +136,9 @@
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "addr1v8r2x66vhc94mw02qfan3924nhd3llk5llwjh4gvw6ldd9sss5tkx"
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"
         },
+
         {
             balance: "0.00000",
             cap: [],
@@ -202,8 +154,9 @@
             name: "Polygon",
             network: "Polygon",
             price: [],
+            minimum: "a minimum of 3",
             price_comma: [],
-            qr: "Polygon",
+            qr: "Bep20",
             query: [],
             query_change: [],
             symbol: "MATIC",
@@ -211,7 +164,7 @@
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"
         },
         {
             balance: "0.00000",
@@ -224,12 +177,13 @@
             market: [],
             market_change: [],
             market_change_percent: [],
+            minimum: "a minimum of 5",
             mini: "0.0",
             name: "Dogecoin",
-            network: "dogecoin",
+            network: "Dogecoin (BEP20)",
             price: [],
             price_comma: [],
-            qr: "dogecoin",
+            qr: "Bep20",
             query: [],
             query_change: [],
             symbol: "DOGE",
@@ -237,35 +191,8 @@
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "DGNXhZuH6Aaj61yo6hPM8azGBgghjp4TaV"
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"
         },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=SOL&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '220, 31, 255,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=SOL&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "10",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Solana",
-            network: "Solana",
-            price: [],
-            price_comma: [],
-            qr: "Solana",
-            query: [],
-            query_change: [],
-            symbol: "SOL",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "6VyxiPQLgBgAFescvhiFHhxrXroQHK6bjbgEC7X637fL"
-        },
-
         {
             balance: "0.00000",
             cap: [],
@@ -277,12 +204,13 @@
             market: [],
             market_change: [],
             market_change_percent: [],
+            minimum: "a minimum of 1",
             mini: "0.0",
             name: "Binance USD",
-            network: "BNB Smart Chain (BEP20)",
+            network: "Binance USD (BEP20)",
             price: [],
             price_comma: [],
-            qr: "BNBSmartChain(BEP20)",
+            qr: "Bep20",
             query: [],
             query_change: [],
             symbol: "BUSD",
@@ -290,33 +218,7 @@
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=DOT&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '230, 0, 122,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=DOT&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "12",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Polkadot",
-            network: "Polkadot",
-            price: [],
-            price_comma: [],
-            qr: "Polkadot",
-            query: [],
-            query_change: [],
-            symbol: "DOT",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "131mUv893HXPFRXgiJcDFpxGRrpX9CL9yUM1gG4aVeS7mmTP"
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"
         },
         {
             balance: "0.00000",
@@ -327,14 +229,15 @@
             img: "13",
             link_home: [],
             market: [],
+            minimum: "a minimum of 100,000",
             market_change: [],
             market_change_percent: [],
             mini: "0.0",
             name: "Shiba Inu",
-            network: "BNB Smart Chain (BEP20)",
+            network: "Shiba Inu (BEP20)",
             price: [],
             price_comma: [],
-            qr: "BNBSmartChain(BEP20)",
+            qr: "Bep20",
             query: [],
             query_change: [],
             symbol: "SHIB",
@@ -342,7 +245,7 @@
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"
         },
         {
             balance: "0.00000",
@@ -354,6 +257,7 @@
             link_home: [],
             market: [],
             market_change: [],
+            minimum: "",
             market_change_percent: [],
             mini: "0.0",
             name: "Litecoin",
@@ -368,8 +272,9 @@
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "LVvwpeqnVvfJ6vNYhBWeqbRJzaQo4GkEJs"
+            wallet: "MHnPvL1FqhpowP22WmihL9v4tNEsp1m9JH"
         },
+
         {
             balance: "0.00000",
             cap: [],
@@ -382,11 +287,12 @@
             market_change: [],
             market_change_percent: [],
             mini: "0.0",
+            minimum: "a minimum of 10",
             name: "TRON",
-            network: "Tron (TRC20)",
+            network: "Tron (BEP20)",
             price: [],
             price_comma: [],
-            qr: "Tron(TRC20)",
+            qr: "Bep20",
             query: [],
             query_change: [],
             symbol: "TRX",
@@ -394,9 +300,8 @@
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "TNcYLbHxxaZHqscg48wrsRZnhWii2znJqo"
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"
         },
-        
         {
             balance: "0.00000",
             cap: [],
@@ -409,8 +314,9 @@
             market_change: [],
             market_change_percent: [],
             mini: "0.0",
+            minimum: "",
             name: "Avalanche",
-            network: "Avalanche",
+            network: "Avalanche (BEP20)",
             price: [],
             price_comma: [],
             qr: "Avalanche",
@@ -421,32 +327,7 @@
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "X-avax13vfwcxlmya4wwewc3yc8auf2klzxegvklmuy9u"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=DAI&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '250, 177, 32,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=DAI&tsym=USD&limit=119&api_key=${cryptoCompare}`,            img: "17",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Dai",
-            network: "BNB Smart Chain (BEP20)",
-            price: [],
-            price_comma: [],
-            qr: "BNBSmartChain(BEP20)",
-            query: [],
-            query_change: [],
-            symbol: "DAI",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"
         },
         {
             balance: "0.00000",
@@ -458,13 +339,14 @@
             link_home: [],
             market: [],
             market_change: [],
+            minimum: "",
             market_change_percent: [],
             mini: "0.0",
             name: "Uniswap",
-            network: "BNB Smart Chain (BEP20)",
+            network: "Uniswap (BEP20)",
             price: [],
             price_comma: [],
-            qr: "BNBSmartChain(BEP20)",
+            qr: "Bep20",
             query: [],
             query_change: [],
             symbol: "UNI",
@@ -472,33 +354,35 @@
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"
         },
         {
             balance: "0.00000",
             cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=WBTC&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '90, 85, 100,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=WBTC&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            volume: [],
+            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=DASH&tsyms=USD&api_key=${cryptoCompare}`,
+            color: '27, 117, 188,',
+            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=DASH&tsym=USD&limit=119&api_key=${cryptoCompare}`,
+            img: "19",
+            link_block: [],
             link_home: [],
             market: [],
             market_change: [],
-            img: "19",
             market_change_percent: [],
-            mini: "0.0",
-            name: "Wrapped Bitcoin",
-            network: "Ethereum (ERC20)",
+            minimum: "",
+            mini: "0.0",// Gone7
+            name: "Dash",
+            network: "Dash (BEP20)",
             price: [],
             price_comma: [],
-            qr: "Ethereum(ERC20)",
+            qr: "Bep20",
             query: [],
             query_change: [],
-            symbol: "WBTC",
-            tip: 0.0005,
+            symbol: "DASH",
+            tip: 0.0045,// Gone0
             total_supply: [],
             circle_supply: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
+            volume: [],
+            wallet: "7mk5Mhew5PMRvp6VkNZW4cuEwEyvN37aPZ"// Gone5
         },
         {
             balance: "0.00000",
@@ -510,13 +394,14 @@
             link_home: [],
             market: [],
             market_change: [],
+            minimum: "",
             market_change_percent: [],
             mini: "0.0",
             name: "Chainlink",
-            network: "BNB Smart Chain (BEP20)",
+            network: "Chainlink (BEP20)",
             price: [],
             price_comma: [],
-            qr: "BNBSmartChain(BEP20)",
+            qr: "Bep20",
             query: [],
             query_change: [],
             symbol: "LINK",
@@ -524,7 +409,7 @@
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"
         },
         
         {
@@ -539,11 +424,12 @@
             market_change: [],
             market_change_percent: [],
             mini: "0.0",
+            minimum: "",
             name: "Cosmos",
-            network: "BNB Smart Chain (BEP20)",
+            network: "Cosmos (BEP20)",
             price: [],
             price_comma: [],
-            qr: "BNBSmartChain(BEP20)",
+            qr: "Bep20",
             query: [],
             query_change: [],
             symbol: "ATOM",
@@ -551,139 +437,121 @@
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"
         },
         {
             balance: "0.00000",
             cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=LEO&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '16, 23, 71,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=LEO&tsym=USD&limit=119&api_key=${cryptoCompare}`,
+            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTTOLD&tsyms=USD&api_key=${cryptoCompare}`,
+            color: '119, 105, 171,',
+            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=BTTOLD&tsym=USD&limit=119&api_key=${cryptoCompare}`,
             img: "22",
+            link_block: [],
             link_home: [],
             market: [],
             market_change: [],
             market_change_percent: [],
-            mini: "0.0",
-            name: "UNUS SED LEO",
-            network: "Bitfinex LEO Token (ERC20)",
+            mini: "0.0",// Gone7
+            minimum: "a minimum of 500,000",
+            name: "BitTorrent",
+            network: "BitTorrent (BEP20)",
             price: [],
             price_comma: [],
-            qr: "BitfinexLEOToken(ERC20)",
+            qr: "Bep20",
             query: [],
             query_change: [],
-            symbol: "LEO",
-            tip: 0.0005,
+            symbol: "BTTOLD",
+            tip: 0.0045,// Gone0
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "0x78fAe986E82D85fc456c6d6B70e714dF79313CF4"
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"// Gone5
         },
         {
             balance: "0.00000",
             cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=ETC&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '0, 159, 66,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=ETC&tsym=USD&limit=119&api_key=${cryptoCompare}`,
+            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=WKD&tsyms=USD&api_key=${cryptoCompare}`,
+            color: '0, 0, 0,',
+            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=WKD&tsym=USD&limit=119&api_key=${cryptoCompare}`,
             img: "23",
+            link_block: [],
             link_home: [],
             market: [],
             market_change: [],
             market_change_percent: [],
-            mini: "0.0",
-            name: "Ethereum Classic",
-            network: "Ethereum Classic",
+            mini: "0.0",// Gone7
+            minimum: "a minimum of 20,000,000",
+            name: "Wakanda Inu",
+            network: "Wakanda Inu (BEP20)",
             price: [],
             price_comma: [],
-            qr: "EthereumClassic",
+            qr: "Bep20",
             query: [],
             query_change: [],
-            symbol: "ETC",
-            tip: 0.0005,
+            symbol: "WKD",
+            tip: 0.0045,// Gone0
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"// Gone5
         },
         {
             balance: "0.00000",
             cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=TON&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '0, 172, 238,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=TON&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "24",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Wrapped Toncoin",
-            network: "Wrapped TON Coin (BEP20)",
-            price: [],
-            price_comma: [],
-            qr: "WrappedTONCoin(BEP20)",
-            query: [],
-            query_change: [],
-            symbol: "TON",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0x78fAe986E82D85fc456c6d6B70e714dF79313CF4"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=OKB&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '32, 95, 236,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=OKB&tsym=USD&limit=119&api_key=${cryptoCompare}`,
+            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=TLM&tsyms=USD&api_key=${cryptoCompare}`,
+            color: '234, 203, 125,',
+            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=TLM&tsym=USD&limit=119&api_key=${cryptoCompare}`,
             img: "25",
+            link_block: [],
             link_home: [],
             market: [],
             market_change: [],
             market_change_percent: [],
-            mini: "0.0",
-            name: "OKB",
-            network: "OKB (ERC20)",
+            mini: "0.0",// Gone7
+            minimum: "",
+            name: "Alien Worlds",
+            network: "Alien Worlds (BEP20)",
             price: [],
             price_comma: [],
-            qr: "OKB(ERC20)",
+            qr: "Bep20",
             query: [],
             query_change: [],
-            symbol: "OKB",
-            tip: 0.0005,
+            symbol: "TLM",
+            tip: 0.0045,// Gone0
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "0x78fAe986E82D85fc456c6d6B70e714dF79313CF4"
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"// Gone5
         },
-        
         {
             balance: "0.00000",
             cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=XMR&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '255, 102, 0,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=XMR&tsym=USD&limit=119&api_key=${cryptoCompare}`,
+            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=C98&tsyms=USD&api_key=${cryptoCompare}`,
+            color: '217, 180, 50,',
+            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=C98&tsym=USD&limit=119&api_key=${cryptoCompare}`,
             img: "26",
+            link_block: [],
             link_home: [],
             market: [],
             market_change: [],
             market_change_percent: [],
-            mini: "0.0",
-            name: "Monero",
-            network: "Monero",
+            mini: "0.0",// Gone7
+            minimum: "",
+            name: "Coin98",
+            network: "Coin98 (BEP20)",
             price: [],
             price_comma: [],
-            qr: "Monero",
+            qr: "Bep20",
             query: [],
             query_change: [],
-            symbol: "XMR",
-            tip: 0.0005,
+            symbol: "C98",
+            tip: 0.0045,// Gone0
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "84mM7qeQ4cF2ctbecagcm59CCyuYGDaZ2UjHCB7Uc78V7jKoPZ5K4Gc12MpBVrfbDQTPbFWbU5rqg26gjGqtpkaj8YNiByx"
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"// Gone5
         },
+
         {
             balance: "0.00000",
             cap: [],
@@ -696,6 +564,7 @@
             market_change: [],
             market_change_percent: [],
             mini: "0.0",
+            minimum: "",
             name: "Bitcoin Cash",
             network: "Bitcoin Cash",
             price: [],
@@ -708,138 +577,7 @@
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "15pVK1vyF8MfV4zg9GSaKTPcZs4NwsvuDS"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=FIL&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '0, 144, 255,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=FIL&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "28",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Filecoin",
-            network: "Filecoin",
-            price: [],
-            price_comma: [],
-            qr: "Filecoin",
-            query: [],
-            query_change: [],
-            symbol: "FIL",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "f12zvybypjdmpe5tloyn4r6eh4wvtwpr3zfdcmm3i"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=APT&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '0, 0, 0,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=APT&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "29",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Aptos",
-            network: "APT",
-            price: [],
-            price_comma: [],
-            qr: "APT",
-            query: [],
-            query_change: [],
-            symbol: "APT",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xa6bc0c4ab9050708ce54fc6d536b94acd6eda943ea4495da68a8a4da96b78be3"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=XLM&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '0, 0, 0,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=XLM&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "30",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Stellar",
-            network: "BNB Smart Chain (BEP20)",
-            price: [],
-            price_comma: [],
-            qr: "BNBSmartChain(BEP20)",
-            query: [],
-            query_change: [],
-            symbol: "XLM",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
-        },
-
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=LDO&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '75, 140, 233,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=LDO&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "31",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Lido DAO",
-            network: "Ethereum (ERC20)",
-            price: [],
-            price_comma: [],
-            qr: "Ethereum(ERC20)",
-            query: [],
-            query_change: [],
-            symbol: "LDO",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=TUSD&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '26, 90, 255,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=TUSD&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "32",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "TrueUSD",
-            network: "TrueUSD (BEP20)",
-            price: [],
-            price_comma: [],
-            qr: "TrueUSD(BEP20)",
-            query: [],
-            query_change: [],
-            symbol: "TUSD",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0x78fAe986E82D85fc456c6d6B70e714dF79313CF4"
+            wallet: "32hoK9TktHxAB1VkBnLiYMRRrt4WuEj47E"
         },
         {
             balance: "0.00000",
@@ -853,11 +591,12 @@
             market_change: [],
             market_change_percent: [],
             mini: "0.0",
+            minimum: "",
             name: "NEAR Protocol",
-            network: "NEAR Protocol",
+            network: "NEAR Protocol (BEP20)",
             price: [],
             price_comma: [],
-            qr: "NEARProtocol",
+            qr: "Bep20",
             query: [],
             query_change: [],
             symbol: "NEAR",
@@ -865,479 +604,35 @@
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "25b19eab27a907f7e31786add7de818b49bed6377b01f3388b08605534134146"
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"
         },
         {
             balance: "0.00000",
             cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=CRO&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '16, 63, 104,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=CRO&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "35",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Cronos",
-            network: "Cronos Chain (CRO)",
-            price: [],
-            price_comma: [],
-            qr: "CronosChain(CRO)",
-            query: [],
-            query_change: [],
-            symbol: "CRO",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0x78fAe986E82D85fc456c6d6B70e714dF79313CF4"
-        },
-        
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=VET&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '24, 186, 253,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=VET&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "36",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Vechain",
-            network: "Vechain",
-            price: [],
-            price_comma: [],
-            qr: "Vechain",
-            query: [],
-            query_change: [],
-            symbol: "VET",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=ICP&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '127,35,133,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=ICP&tsym=USD&limit=119&api_key=${cryptoCompare}`,
+            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=CAKE&tsyms=USD&api_key=${cryptoCompare}`,
+            color: '209, 136, 79,',
+            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=CAKE&tsym=USD&limit=119&api_key=${cryptoCompare}`,
             img: "37",
+            link_block: [],
             link_home: [],
             market: [],
             market_change: [],
             market_change_percent: [],
-            mini: "0.0",
-            name: "Internet Computer",
-            network: "Internet Computer",
+            mini: "0.0",// Gone7
+            minimum: "a minimum of 0.5",
+            name: "PancakeSwap",
+            network: "PancakeSwap (BEP20)",
             price: [],
             price_comma: [],
-            qr: "InternetComputer",
+            qr: "Bep20",
             query: [],
             query_change: [],
-            symbol: "ICP",
-            tip: 0.0005,
+            symbol: "CAKE",
+            tip: 0.0045,// Gone0
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "2d325da54d44d83b366f89aefc568bb2fab56b4b89cd34254589413dc0fe2ae5"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=APE&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '18, 65, 172,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=APE&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "38",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Apecoin",
-            network: "BNB Smart Chain (BEP20)",
-            price: [],
-            price_comma: [],
-            qr: "BNBSmartChain(BEP20)",
-            query: [],
-            query_change: [],
-            symbol: "APE",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=ALGO&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '0, 0, 0,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=ALGO&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "39",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Algorand",
-            network: "Algorand",
-            price: [],
-            price_comma: [],
-            qr: "Algorand",
-            query: [],
-            query_change: [],
-            symbol: "ALGO",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "BYV6LAEVYXEJ357Z6WT4AHRFX4GVW47O27DWOJVNHKKUHV2QG6LY7HMJE4"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=QNT&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '0, 0, 0,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=QNT&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "40",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Quant",
-            network: "Ethereum (ERC20)",
-            price: [],
-            price_comma: [],
-            qr: "Ethereum(ERC20)",
-            query: [],
-            query_change: [],
-            symbol: "QNT",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
-        },
-
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=STX&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '85, 70, 255,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=STX&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "41",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Stacks",
-            network: "Stox (ERC20)",
-            price: [],
-            price_comma: [],
-            qr: "Stox(ERC20)",
-            query: [],
-            query_change: [],
-            symbol: "STX",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0x78fAe986E82D85fc456c6d6B70e714dF79313CF4"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=GRT&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '103, 71, 237,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=GRT&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "42",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "The Graph",
-            network: "Ethereum (ERC20)",
-            price: [],
-            price_comma: [],
-            qr: "Ethereum(ERC20)",
-            query: [],
-            query_change: [],
-            symbol: "GRT",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=FTM&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '19, 181, 236,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=FTM&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "43",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Fantom",
-            network: "Fantom",
-            price: [],
-            price_comma: [],
-            qr: "Fantom",
-            query: [],
-            query_change: [],
-            symbol: "FTM",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=IMX&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '23, 181, 203,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=IMX&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "44",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Immutable",
-            network: "Ethereum (ERC20)",
-            price: [],
-            price_comma: [],
-            qr: "Ethereum(ERC20)",
-            query: [],
-            query_change: [],
-            symbol: "IMX",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=EOS&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '0, 0, 0,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=EOS&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "45",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "EOS",
-            network: "BNB Smart Chain (BEP20)",
-            price: [],
-            price_comma: [],
-            qr: "BNBSmartChain(BEP20)",
-            query: [],
-            query_change: [],
-            symbol: "EOS",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
-        },
-
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=MANA&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '255, 45, 85,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=MANA&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "46",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Decentraland",
-            network: "Ethereum (ERC20)",
-            price: [],
-            price_comma: [],
-            qr: "Ethereum(ERC20)",
-            query: [],
-            query_change: [],
-            symbol: "MANA",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BIT&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '193, 255, 60,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=BIT&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "47",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "BitDAO",
-            network: "BitDAO (ERC20)",
-            price: [],
-            price_comma: [],
-            qr: "BitDAO(ERC20)",
-            query: [],
-            query_change: [],
-            symbol: "BIT",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0x78fAe986E82D85fc456c6d6B70e714dF79313CF4"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=XTZ&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '44, 125, 247,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=XTZ&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "48",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Tezos",
-            network: "Tezos",
-            price: [],
-            price_comma: [],
-            qr: "Tezos",
-            query: [],
-            query_change: [],
-            symbol: "XTZ",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "tz2LzRSH1ThdQsGrNhPFekPviWE5MMCkFGex"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=AAVE&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '182, 80, 158,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=AAVE&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "49",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Aave",
-            network: "BNB Smart Chain (BEP20)",
-            price: [],
-            price_comma: [],
-            qr: "BNBSmartChain(BEP20)",
-            query: [],
-            query_change: [],
-            symbol: "AAVE",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=FLOW&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '22, 255, 153,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=FLOW&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "50",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Flow",
-            network: "FLOW",
-            price: [],
-            price_comma: [],
-            qr: "FLOW",
-            query: [],
-            query_change: [],
-            symbol: "FLOW",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0x2bb8e3ac7c2beba7"
-        },
-        
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=EGLD&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '13, 1, 43,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=EGLD&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "51",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "MultiversX",
-            network: "MultiverseX eGold",
-            price: [],
-            price_comma: [],
-            qr: "MultiverseXeGold",
-            query: [],
-            query_change: [],
-            symbol: "EGLD",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "erd10mmzrdm8qn5rwm09j34028e3ajpt6k4daa7j7kdpmczth98kfd8q8fkd2t"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=THETA&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '43, 184, 230,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=THETA&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "52",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Theta Network",
-            network: "Theta Token",
-            price: [],
-            price_comma: [],
-            qr: "ThetaToken",
-            query: [],
-            query_change: [],
-            symbol: "THETA",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"// Gone5
         },
         {
             balance: "0.00000",
@@ -1351,11 +646,12 @@
             market_change: [],
             market_change_percent: [],
             mini: "0.0",
+            minimum: "a minimum of 0.1",
             name: "Axie Infinity",
-            network: "BNB Smart Chain (BEP20)",
+            network: "Axie Infinity (BEP20)",
             price: [],
             price_comma: [],
-            qr: "BNBSmartChain(BEP20)",
+            qr: "Bep20",
             query: [],
             query_change: [],
             symbol: "AXS",
@@ -1363,295 +659,63 @@
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"
         },
         {
             balance: "0.00000",
             cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=CFX&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '56, 161, 219,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=CFX&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "54",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Conflux",
-            network: "BNB Smart Chain (BEP20)",
-            price: [],
-            price_comma: [],
-            qr: "BNBSmartChain(BEP20)",
-            query: [],
-            query_change: [],
-            symbol: "CFX",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=SAND&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '0, 132, 255,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=SAND&tsym=USD&limit=119&api_key=${cryptoCompare}`,
+            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BAT&tsyms=USD&api_key=${cryptoCompare}`,
+            color: '255, 80, 0,',
+            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=BAT&tsym=USD&limit=119&api_key=${cryptoCompare}`,
             img: "55",
+            link_block: [],
             link_home: [],
             market: [],
             market_change: [],
             market_change_percent: [],
-            mini: "0.0",
-            name: "The Sandbox",
-            network: "BNB Smart Chain (BEP20)",
+            mini: "0.0",// Gone7
+            minimum: "",
+            name: "Basic Attention Token",
+            network: "Basic Attention Token (BEP20)",
             price: [],
             price_comma: [],
-            qr: "BNBSmartChain(BEP20)",
+            qr: "Bep20",
             query: [],
             query_change: [],
-            symbol: "SAND",
-            tip: 0.0005,
+            symbol: "BAT",
+            tip: 0.0045,// Gone0
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
-        },
-        
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=KCS&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '35, 175, 145,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=KCS&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "56",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "KuCoin Token",
-            network: "Kucoin Community Chain (KCS)",
-            price: [],
-            price_comma: [],
-            qr: "KucoinCommunityChain(KCS)",
-            query: [],
-            query_change: [],
-            symbol: "KCS",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0x78fAe986E82D85fc456c6d6B70e714dF79313CF4"
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"// Gone5
         },
         {
             balance: "0.00000",
             cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=NEO&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '0, 229, 153,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=NEO&tsym=USD&limit=119&api_key=${cryptoCompare}`,
+            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=XPR&tsyms=USD&api_key=${cryptoCompare}`,
+            color: '0, 137, 193,',
+            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=XPR&tsym=USD&limit=119&api_key=${cryptoCompare}`,
             img: "57",
+            link_block: [],
             link_home: [],
             market: [],
             market_change: [],
             market_change_percent: [],
-            mini: "0.0",
-            name: "Neo",
-            network: "Neo Legacy",
+            mini: "0.0",// Gone7
+            minimum: "a minimum of 1",
+            name: "Ripple",
+            network: "Ripple (BEP20)",
             price: [],
             price_comma: [],
-            qr: "NeoLegacy",
+            qr: "Bep20",
             query: [],
             query_change: [],
-            symbol: "NEO",
-            tip: 0.0005,
+            symbol: "XPR",
+            tip: 0.0045,// Gone0
             total_supply: [],
             circle_supply: [],
             volume: [],
-            wallet: "AcfAxet1L7wwEvzLh4VekVQzPvynbrVkTB"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=USDP&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '47, 130, 96,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=USDP&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "58",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Pax Dollar",
-            network: "BNB Smart Chain (BEP20)",
-            price: [],
-            price_comma: [],
-            qr: "BNBSmartChain(BEP20)",
-            query: [],
-            query_change: [],
-            symbol: "USDP",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=OP&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '235, 8, 40,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=OP&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "59",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Optimism",
-            network: "Optimism",
-            price: [],
-            price_comma: [],
-            qr: "Optimism",
-            query: [],
-            query_change: [],
-            symbol: "OP",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=RPL&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '254, 110, 90,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=RPL&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "60",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Rocket Pool",
-            network: "Ethereum (ERC20)",
-            price: [],
-            price_comma: [],
-            qr: "Ethereum(ERC20)",
-            query: [],
-            query_change: [],
-            symbol: "RPL",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
-        },
-        
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=CHZ&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '205, 1, 36,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=CHZ&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "61",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Chilliz",
-            network: "Ethereum (ERC20)",
-            price: [],
-            price_comma: [],
-            qr: "Ethereum(ERC20)",
-            query: [],
-            query_change: [],
-            symbol: "CHZ",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=CRV&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '255, 72, 0,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=CRV&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "63",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Curve DAO Token",
-            network: "Ethereum (ERC20)",
-            price: [],
-            price_comma: [],
-            qr: "Ethereum(ERC20)",
-            query: [],
-            query_change: [],
-            symbol: "CRV",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=MINA&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '199, 105, 101,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=MINA&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "64",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Mina",
-            network: "Mina",
-            price: [],
-            price_comma: [],
-            qr: "Mina",
-            query: [],
-            query_change: [],
-            symbol: "MINA",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "B62qmseZhXqmWLHTHJgSJVZeXDoHyDtUBpeG2zMqwDqcDLXoq6JW9DS"
-        },
-        {
-            balance: "0.00000",
-            cap: [],
-            code: `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=KLAY&tsyms=USD&api_key=${cryptoCompare}`,
-            color: '79, 71, 59,',
-            graph: `https://min-api.cryptocompare.com/data/v2/histominute?fsym=KLAY&tsym=USD&limit=119&api_key=${cryptoCompare}`,
-            img: "65",
-            link_home: [],
-            market: [],
-            market_change: [],
-            market_change_percent: [],
-            mini: "0.0",
-            name: "Klaytn",
-            network: "Klaytn",
-            price: [],
-            price_comma: [],
-            qr: "Klaytn",
-            query: [],
-            query_change: [],
-            symbol: "KLAY",
-            tip: 0.0005,
-            total_supply: [],
-            circle_supply: [],
-            volume: [],
-            wallet: "0xbabefad9f9d50446556246407a4bb1e668f1df91"
+            wallet: "0x473ebDeFA9CD9dDCbe377a4f4A25535aCC6641Dd"// Gone5
         },
     ];
     // -------------------- 
@@ -1960,13 +1024,13 @@
             ${ CryptoLocalData[TokenPage].wallet }
         `;
         document.getElementById("receive-network").innerHTML = `
-            NETWORK: ${ CryptoLocalData[TokenPage].network }
+            Token: ${ CryptoLocalData[TokenPage].network }
         `;
         document.getElementById("receive-send-txt").innerHTML = `
             Go to Send ${ CryptoLocalData[TokenPage].symbol }
         `;
         document.getElementById("receive-note-2").innerHTML = `
-            Send only ${ CryptoLocalData[TokenPage].name } (${ CryptoLocalData[TokenPage].symbol }) to the Network "${ CryptoLocalData[TokenPage].network }".<br>
+            Send only <label style="color: rgb(166, 50, 50);">${ CryptoLocalData[TokenPage].minimum }</label> ${ CryptoLocalData[TokenPage].name } (${ CryptoLocalData[TokenPage].symbol }) to this Address.<br>
             Failure to do so, may result in permanent loss!
         `;
     }
@@ -2203,1125 +1267,423 @@
             CryptoLocalData[3].circle_supply.push(Number(response.RAW.BNB.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
         })
         .catch(err => console.error(err));
-    // -------------------- 
+    // --------------------  
 
-    // USD Coin
+    // Cardano
     fetch(CryptoLocalData[4].code)
         .then(response => response.json())
         .then(response => {
-            CryptoLocalData[4].price_comma.push(Number(response.RAW.USDC.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[4].price.push(response.RAW.USDC.USD.PRICE.toFixed(2));
-            CryptoLocalData[4].query_change.push(Number(response.RAW.USDC.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[4].query.push(Number(response.RAW.USDC.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[4].cap.push(Number(response.RAW.USDC.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[4].market.push(Number(response.RAW.USDC.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[4].volume.push(Number(response.RAW.USDC.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[4].market_change.push(Number(response.RAW.USDC.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[4].market_change_percent.push(Number(response.RAW.USDC.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[4].total_supply.push(Number(response.RAW.USDC.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[4].circle_supply.push(Number(response.RAW.USDC.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // XPR
-    fetch(CryptoLocalData[5].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[5].price_comma.push(Number(response.RAW.XRP.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[5].price.push(response.RAW.XRP.USD.PRICE.toFixed(2));
-            CryptoLocalData[5].query_change.push(Number(response.RAW.XRP.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[5].query.push(Number(response.RAW.XRP.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[5].cap.push(Number(response.RAW.XRP.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[5].market.push(Number(response.RAW.XRP.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[5].volume.push(Number(response.RAW.XRP.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[5].market_change.push(Number(response.RAW.XRP.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[5].market_change_percent.push(Number(response.RAW.XRP.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[5].total_supply.push(Number(response.RAW.XRP.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[5].circle_supply.push(Number(response.RAW.XRP.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-	// -------------------- 
-
-    // Cardano
-    fetch(CryptoLocalData[6].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[6].price_comma.push(Number(response.RAW.ADA.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[6].price.push(response.RAW.ADA.USD.PRICE.toFixed(2));
-            CryptoLocalData[6].query_change.push(Number(response.RAW.ADA.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[6].query.push(Number(response.RAW.ADA.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[6].cap.push(Number(response.RAW.ADA.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[6].market.push(Number(response.RAW.ADA.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[6].volume.push(Number(response.RAW.ADA.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[6].market_change.push(Number(response.RAW.ADA.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[6].market_change_percent.push(Number(response.RAW.ADA.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[6].total_supply.push(Number(response.RAW.ADA.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[6].circle_supply.push(Number(response.RAW.ADA.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[4].price_comma.push(Number(response.RAW.ADA.USD.PRICE.toFixed(2)).toLocaleString());
+            CryptoLocalData[4].price.push(response.RAW.ADA.USD.PRICE.toFixed(2));
+            CryptoLocalData[4].query_change.push(Number(response.RAW.ADA.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[4].query.push(Number(response.RAW.ADA.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[4].cap.push(Number(response.RAW.ADA.USD.HIGHDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[4].market.push(Number(response.RAW.ADA.USD.MKTCAP.toFixed(2)).toLocaleString());
+            CryptoLocalData[4].volume.push(Number(response.RAW.ADA.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[4].market_change.push(Number(response.RAW.ADA.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[4].market_change_percent.push(Number(response.RAW.ADA.USD.LOWDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[4].total_supply.push(Number(response.RAW.ADA.USD.SUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[4].circle_supply.push(Number(response.RAW.ADA.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
         })
         .catch(err => console.error(err));
     // --------------------
     
     // Polygon
-    fetch(CryptoLocalData[7].code)
+    fetch(CryptoLocalData[5].code)
         .then(response => response.json())
         .then(response => {
-            CryptoLocalData[7].price_comma.push(Number(response.RAW.MATIC.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[7].price.push(response.RAW.MATIC.USD.PRICE.toFixed(2));
-            CryptoLocalData[7].query_change.push(Number(response.RAW.MATIC.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[7].query.push(Number(response.RAW.MATIC.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[7].cap.push(Number(response.RAW.MATIC.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[7].market.push(Number(response.RAW.MATIC.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[7].volume.push(Number(response.RAW.MATIC.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[7].market_change.push(Number(response.RAW.MATIC.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[7].market_change_percent.push(Number(response.RAW.MATIC.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[7].total_supply.push(Number(response.RAW.MATIC.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[7].circle_supply.push(Number(response.RAW.MATIC.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[5].price_comma.push(Number(response.RAW.MATIC.USD.PRICE.toFixed(2)).toLocaleString());
+            CryptoLocalData[5].price.push(response.RAW.MATIC.USD.PRICE.toFixed(2));
+            CryptoLocalData[5].query_change.push(Number(response.RAW.MATIC.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[5].query.push(Number(response.RAW.MATIC.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[5].cap.push(Number(response.RAW.MATIC.USD.HIGHDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[5].market.push(Number(response.RAW.MATIC.USD.MKTCAP.toFixed(2)).toLocaleString());
+            CryptoLocalData[5].volume.push(Number(response.RAW.MATIC.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[5].market_change.push(Number(response.RAW.MATIC.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[5].market_change_percent.push(Number(response.RAW.MATIC.USD.LOWDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[5].total_supply.push(Number(response.RAW.MATIC.USD.SUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[5].circle_supply.push(Number(response.RAW.MATIC.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
         })
         .catch(err => console.error(err));
     // -------------------- 
 
 
     // Dogecoin
-    fetch(CryptoLocalData[8].code)
+    fetch(CryptoLocalData[6].code)
         .then(response => response.json())
         .then(response => {
-            CryptoLocalData[8].price_comma.push(Number(response.RAW.DOGE.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[8].price.push(response.RAW.DOGE.USD.PRICE.toFixed(2));
-            CryptoLocalData[8].query_change.push(Number(response.RAW.DOGE.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[8].query.push(Number(response.RAW.DOGE.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[8].cap.push(Number(response.RAW.DOGE.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[8].market.push(Number(response.RAW.DOGE.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[8].volume.push(Number(response.RAW.DOGE.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[8].market_change.push(Number(response.RAW.DOGE.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[8].market_change_percent.push(Number(response.RAW.DOGE.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[8].total_supply.push(Number(response.RAW.DOGE.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[8].circle_supply.push(Number(response.RAW.DOGE.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // Solana
-    fetch(CryptoLocalData[9].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[9].price_comma.push(Number(response.RAW.SOL.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[9].price.push(response.RAW.SOL.USD.PRICE.toFixed(2));
-            CryptoLocalData[9].query_change.push(Number(response.RAW.SOL.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[9].query.push(Number(response.RAW.SOL.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[9].cap.push(Number(response.RAW.SOL.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[9].market.push(Number(response.RAW.SOL.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[9].volume.push(Number(response.RAW.SOL.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[9].market_change.push(Number(response.RAW.SOL.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[9].market_change_percent.push(Number(response.RAW.SOL.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[9].total_supply.push(Number(response.RAW.SOL.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[9].circle_supply.push(Number(response.RAW.SOL.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[6].price_comma.push(Number(response.RAW.DOGE.USD.PRICE.toFixed(2)).toLocaleString());
+            CryptoLocalData[6].price.push(response.RAW.DOGE.USD.PRICE.toFixed(2));
+            CryptoLocalData[6].query_change.push(Number(response.RAW.DOGE.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[6].query.push(Number(response.RAW.DOGE.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[6].cap.push(Number(response.RAW.DOGE.USD.HIGHDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[6].market.push(Number(response.RAW.DOGE.USD.MKTCAP.toFixed(2)).toLocaleString());
+            CryptoLocalData[6].volume.push(Number(response.RAW.DOGE.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[6].market_change.push(Number(response.RAW.DOGE.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[6].market_change_percent.push(Number(response.RAW.DOGE.USD.LOWDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[6].total_supply.push(Number(response.RAW.DOGE.USD.SUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[6].circle_supply.push(Number(response.RAW.DOGE.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
         })
         .catch(err => console.error(err));
     // -------------------- 
 
     // Binance USD
-    fetch(CryptoLocalData[10].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[10].price_comma.push(Number(response.RAW.BUSD.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[10].price.push(response.RAW.BUSD.USD.PRICE.toFixed(2));
-            CryptoLocalData[10].query_change.push(Number(response.RAW.BUSD.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[10].query.push(Number(response.RAW.BUSD.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[10].cap.push(Number(response.RAW.BUSD.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[10].market.push(Number(response.RAW.BUSD.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[10].volume.push(Number(response.RAW.BUSD.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[10].market_change.push(Number(response.RAW.BUSD.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[10].market_change_percent.push(Number(response.RAW.BUSD.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[10].total_supply.push(Number(response.RAW.BUSD.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[10].circle_supply.push(Number(response.RAW.BUSD.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // Polkadot
-    fetch(CryptoLocalData[11].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[11].price_comma.push(Number(response.RAW.DOT.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[11].price.push(response.RAW.DOT.USD.PRICE.toFixed(2));
-            CryptoLocalData[11].query_change.push(Number(response.RAW.DOT.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[11].query.push(Number(response.RAW.DOT.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[11].cap.push(Number(response.RAW.DOT.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[11].market.push(Number(response.RAW.DOT.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[11].volume.push(Number(response.RAW.DOT.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[11].market_change.push(Number(response.RAW.DOT.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[11].market_change_percent.push(Number(response.RAW.DOT.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[11].total_supply.push(Number(response.RAW.DOT.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[11].circle_supply.push(Number(response.RAW.DOT.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
+    fetch(CryptoLocalData[7].code)
+    .then(response => response.json())
+    .then(response => {
+        CryptoLocalData[7].price_comma.push(Number(response.RAW.BUSD.USD.PRICE.toFixed(2)).toLocaleString());
+        CryptoLocalData[7].price.push(response.RAW.BUSD.USD.PRICE.toFixed(2));
+        CryptoLocalData[7].query_change.push(Number(response.RAW.BUSD.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+        CryptoLocalData[7].query.push(Number(response.RAW.BUSD.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+        CryptoLocalData[7].cap.push(Number(response.RAW.BUSD.USD.HIGHDAY.toFixed(2)).toLocaleString());
+        CryptoLocalData[7].market.push(Number(response.RAW.BUSD.USD.MKTCAP.toFixed(2)).toLocaleString());
+        CryptoLocalData[7].volume.push(Number(response.RAW.BUSD.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+        CryptoLocalData[7].market_change.push(Number(response.RAW.BUSD.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+        CryptoLocalData[7].market_change_percent.push(Number(response.RAW.BUSD.USD.LOWDAY.toFixed(2)).toLocaleString());
+        CryptoLocalData[7].total_supply.push(Number(response.RAW.BUSD.USD.SUPPLY.toFixed(2)).toLocaleString());
+        CryptoLocalData[7].circle_supply.push(Number(response.RAW.BUSD.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+    })
+    .catch(err => console.error(err));
+// --------------------
 
     // Shiba Inu
-    fetch(CryptoLocalData[12].code)
+    fetch(CryptoLocalData[8].code)
         .then(response => response.json())
         .then(response => {
-            CryptoLocalData[12].price_comma.push(Number(response.RAW.SHIB.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[12].price.push(response.RAW.SHIB.USD.PRICE.toFixed(2));
-            CryptoLocalData[12].query_change.push(Number(response.RAW.SHIB.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[12].query.push(Number(response.RAW.SHIB.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[12].cap.push(Number(response.RAW.SHIB.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[12].market.push(Number(response.RAW.SHIB.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[12].volume.push(Number(response.RAW.SHIB.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[12].market_change.push(Number(response.RAW.SHIB.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[12].market_change_percent.push(Number(response.RAW.SHIB.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[12].total_supply.push(Number(response.RAW.SHIB.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[12].circle_supply.push(Number(response.RAW.SHIB.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[8].price_comma.push(Number(response.RAW.SHIB.USD.PRICE.toFixed(2)).toLocaleString());
+            CryptoLocalData[8].price.push(response.RAW.SHIB.USD.PRICE.toFixed(2));
+            CryptoLocalData[8].query_change.push(Number(response.RAW.SHIB.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[8].query.push(Number(response.RAW.SHIB.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[8].cap.push(Number(response.RAW.SHIB.USD.HIGHDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[8].market.push(Number(response.RAW.SHIB.USD.MKTCAP.toFixed(2)).toLocaleString());
+            CryptoLocalData[8].volume.push(Number(response.RAW.SHIB.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[8].market_change.push(Number(response.RAW.SHIB.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[8].market_change_percent.push(Number(response.RAW.SHIB.USD.LOWDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[8].total_supply.push(Number(response.RAW.SHIB.USD.SUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[8].circle_supply.push(Number(response.RAW.SHIB.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
         })
         .catch(err => console.error(err));
     // -------------------- 
 
-    // 
-    fetch(CryptoLocalData[13].code)
+    // Litecoin
+    fetch(CryptoLocalData[9].code)
         .then(response => response.json())
         .then(response => {
-            CryptoLocalData[13].price_comma.push(Number(response.RAW.LTC.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[13].price.push(response.RAW.LTC.USD.PRICE.toFixed(2));
-            CryptoLocalData[13].query_change.push(Number(response.RAW.LTC.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[13].query.push(Number(response.RAW.LTC.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[13].cap.push(Number(response.RAW.LTC.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[13].market.push(Number(response.RAW.LTC.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[13].volume.push(Number(response.RAW.LTC.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[13].market_change.push(Number(response.RAW.LTC.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[13].market_change_percent.push(Number(response.RAW.LTC.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[13].total_supply.push(Number(response.RAW.LTC.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[13].circle_supply.push(Number(response.RAW.LTC.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[9].price_comma.push(Number(response.RAW.LTC.USD.PRICE.toFixed(2)).toLocaleString());
+            CryptoLocalData[9].price.push(response.RAW.LTC.USD.PRICE.toFixed(2));
+            CryptoLocalData[9].query_change.push(Number(response.RAW.LTC.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[9].query.push(Number(response.RAW.LTC.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[9].cap.push(Number(response.RAW.LTC.USD.HIGHDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[9].market.push(Number(response.RAW.LTC.USD.MKTCAP.toFixed(2)).toLocaleString());
+            CryptoLocalData[9].volume.push(Number(response.RAW.LTC.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[9].market_change.push(Number(response.RAW.LTC.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[9].market_change_percent.push(Number(response.RAW.LTC.USD.LOWDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[9].total_supply.push(Number(response.RAW.LTC.USD.SUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[9].circle_supply.push(Number(response.RAW.LTC.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
         })
         .catch(err => console.error(err));
     // -------------------- 
 
     // Tron
-    fetch(CryptoLocalData[14].code)
+    fetch(CryptoLocalData[10].code)
         .then(response => response.json())
         .then(response => {
-            CryptoLocalData[14].price_comma.push(Number(response.RAW.TRX.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[14].price.push(response.RAW.TRX.USD.PRICE.toFixed(2));
-            CryptoLocalData[14].query_change.push(Number(response.RAW.TRX.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[14].query.push(Number(response.RAW.TRX.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[14].cap.push(Number(response.RAW.TRX.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[14].market.push(Number(response.RAW.TRX.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[14].volume.push(Number(response.RAW.TRX.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[14].market_change.push(Number(response.RAW.TRX.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[14].market_change_percent.push(Number(response.RAW.TRX.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[14].total_supply.push(Number(response.RAW.TRX.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[14].circle_supply.push(Number(response.RAW.TRX.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[10].price_comma.push(Number(response.RAW.TRX.USD.PRICE.toFixed(2)).toLocaleString());
+            CryptoLocalData[10].price.push(response.RAW.TRX.USD.PRICE.toFixed(2));
+            CryptoLocalData[10].query_change.push(Number(response.RAW.TRX.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[10].query.push(Number(response.RAW.TRX.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[10].cap.push(Number(response.RAW.TRX.USD.HIGHDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[10].market.push(Number(response.RAW.TRX.USD.MKTCAP.toFixed(2)).toLocaleString());
+            CryptoLocalData[10].volume.push(Number(response.RAW.TRX.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[10].market_change.push(Number(response.RAW.TRX.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[10].market_change_percent.push(Number(response.RAW.TRX.USD.LOWDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[10].total_supply.push(Number(response.RAW.TRX.USD.SUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[10].circle_supply.push(Number(response.RAW.TRX.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
         })
         .catch(err => console.error(err));
     // -------------------- 
 
     // Avalanche
-    fetch(CryptoLocalData[15].code)
+    fetch(CryptoLocalData[11].code)
         .then(response => response.json())
         .then(response => {
-            CryptoLocalData[15].price_comma.push(Number(response.RAW.AVAX.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[15].price.push(response.RAW.AVAX.USD.PRICE.toFixed(2));
-            CryptoLocalData[15].query_change.push(Number(response.RAW.AVAX.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[15].query.push(Number(response.RAW.AVAX.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[15].cap.push(Number(response.RAW.AVAX.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[15].market.push(Number(response.RAW.AVAX.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[15].volume.push(Number(response.RAW.AVAX.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[15].market_change.push(Number(response.RAW.AVAX.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[15].market_change_percent.push(Number(response.RAW.AVAX.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[15].total_supply.push(Number(response.RAW.AVAX.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[15].circle_supply.push(Number(response.RAW.AVAX.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // Dai
-    fetch(CryptoLocalData[16].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[16].price_comma.push(Number(response.RAW.DAI.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[16].price.push(response.RAW.DAI.USD.PRICE.toFixed(2));
-            CryptoLocalData[16].query_change.push(Number(response.RAW.DAI.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[16].query.push(Number(response.RAW.DAI.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[16].cap.push(Number(response.RAW.DAI.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[16].market.push(Number(response.RAW.DAI.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[16].volume.push(Number(response.RAW.DAI.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[16].market_change.push(Number(response.RAW.DAI.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[16].market_change_percent.push(Number(response.RAW.DAI.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[16].total_supply.push(Number(response.RAW.DAI.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[16].circle_supply.push(Number(response.RAW.DAI.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[11].price_comma.push(Number(response.RAW.AVAX.USD.PRICE.toFixed(2)).toLocaleString());
+            CryptoLocalData[11].price.push(response.RAW.AVAX.USD.PRICE.toFixed(2));
+            CryptoLocalData[11].query_change.push(Number(response.RAW.AVAX.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[11].query.push(Number(response.RAW.AVAX.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[11].cap.push(Number(response.RAW.AVAX.USD.HIGHDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[11].market.push(Number(response.RAW.AVAX.USD.MKTCAP.toFixed(2)).toLocaleString());
+            CryptoLocalData[11].volume.push(Number(response.RAW.AVAX.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[11].market_change.push(Number(response.RAW.AVAX.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[11].market_change_percent.push(Number(response.RAW.AVAX.USD.LOWDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[11].total_supply.push(Number(response.RAW.AVAX.USD.SUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[11].circle_supply.push(Number(response.RAW.AVAX.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
         })
         .catch(err => console.error(err));
     // -------------------- 
 
     // Uniswap
-    fetch(CryptoLocalData[17].code)
+    fetch(CryptoLocalData[12].code)
         .then(response => response.json())
         .then(response => {
-            CryptoLocalData[17].price_comma.push(Number(response.RAW.UNI.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[17].price.push(response.RAW.UNI.USD.PRICE.toFixed(2));
-            CryptoLocalData[17].query_change.push(Number(response.RAW.UNI.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[17].query.push(Number(response.RAW.UNI.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[17].cap.push(Number(response.RAW.UNI.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[17].market.push(Number(response.RAW.UNI.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[17].volume.push(Number(response.RAW.UNI.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[17].market_change.push(Number(response.RAW.UNI.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[17].market_change_percent.push(Number(response.RAW.UNI.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[17].total_supply.push(Number(response.RAW.UNI.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[17].circle_supply.push(Number(response.RAW.UNI.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[12].price_comma.push(Number(response.RAW.UNI.USD.PRICE.toFixed(2)).toLocaleString());
+            CryptoLocalData[12].price.push(response.RAW.UNI.USD.PRICE.toFixed(2));
+            CryptoLocalData[12].query_change.push(Number(response.RAW.UNI.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[12].query.push(Number(response.RAW.UNI.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[12].cap.push(Number(response.RAW.UNI.USD.HIGHDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[12].market.push(Number(response.RAW.UNI.USD.MKTCAP.toFixed(2)).toLocaleString());
+            CryptoLocalData[12].volume.push(Number(response.RAW.UNI.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[12].market_change.push(Number(response.RAW.UNI.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[12].market_change_percent.push(Number(response.RAW.UNI.USD.LOWDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[12].total_supply.push(Number(response.RAW.UNI.USD.SUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[12].circle_supply.push(Number(response.RAW.UNI.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
         })
         .catch(err => console.error(err));
-    // -------------------- 
+    // --------------------
 
-    // 
-    fetch(CryptoLocalData[18].code)
+    // Dash
+    fetch(CryptoLocalData[13].code)
         .then(response => response.json())
         .then(response => {
-            CryptoLocalData[18].price_comma.push(Number(response.RAW.WBTC.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[18].price.push(response.RAW.WBTC.USD.PRICE.toFixed(2));
-            CryptoLocalData[18].query_change.push(Number(response.RAW.WBTC.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[18].query.push(Number(response.RAW.WBTC.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[18].cap.push(Number(response.RAW.WBTC.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[18].market.push(Number(response.RAW.WBTC.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[18].volume.push(Number(response.RAW.WBTC.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[18].market_change.push(Number(response.RAW.WBTC.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[18].market_change_percent.push(Number(response.RAW.WBTC.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[18].total_supply.push(Number(response.RAW.WBTC.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[18].circle_supply.push(Number(response.RAW.WBTC.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[13].price_comma.push(Number(response.RAW.DASH.USD.PRICE.toFixed(2)).toLocaleString());
+            CryptoLocalData[13].price.push(response.RAW.DASH.USD.PRICE.toFixed(2));
+            CryptoLocalData[13].query_change.push(Number(response.RAW.DASH.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[13].query.push(Number(response.RAW.DASH.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[13].cap.push(Number(response.RAW.DASH.USD.HIGHDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[13].market.push(Number(response.RAW.DASH.USD.MKTCAP.toFixed(2)).toLocaleString());
+            CryptoLocalData[13].volume.push(Number(response.RAW.DASH.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[13].market_change.push(Number(response.RAW.DASH.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[13].market_change_percent.push(Number(response.RAW.DASH.USD.LOWDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[13].total_supply.push(Number(response.RAW.DASH.USD.SUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[13].circle_supply.push(Number(response.RAW.DASH.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
         })
         .catch(err => console.error(err));
     // -------------------- 
 
     // Chainlink
+    fetch(CryptoLocalData[14].code)
+        .then(response => response.json())
+        .then(response => {
+            CryptoLocalData[14].price_comma.push(Number(response.RAW.LINK.USD.PRICE.toFixed(2)).toLocaleString());
+            CryptoLocalData[14].price.push(response.RAW.LINK.USD.PRICE.toFixed(2));
+            CryptoLocalData[14].query_change.push(Number(response.RAW.LINK.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[14].query.push(Number(response.RAW.LINK.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[14].cap.push(Number(response.RAW.LINK.USD.HIGHDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[14].market.push(Number(response.RAW.LINK.USD.MKTCAP.toFixed(2)).toLocaleString());
+            CryptoLocalData[14].volume.push(Number(response.RAW.LINK.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[14].market_change.push(Number(response.RAW.LINK.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[14].market_change_percent.push(Number(response.RAW.LINK.USD.LOWDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[14].total_supply.push(Number(response.RAW.LINK.USD.SUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[14].circle_supply.push(Number(response.RAW.LINK.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+        })
+        .catch(err => console.error(err));
+    // -------------------- 
+
+    // Cosmos
+    fetch(CryptoLocalData[15].code)
+        .then(response => response.json())
+        .then(response => {
+            CryptoLocalData[15].price_comma.push(Number(response.RAW.ATOM.USD.PRICE.toFixed(2)).toLocaleString());
+            CryptoLocalData[15].price.push(response.RAW.ATOM.USD.PRICE.toFixed(2));
+            CryptoLocalData[15].query_change.push(Number(response.RAW.ATOM.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[15].query.push(Number(response.RAW.ATOM.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[15].cap.push(Number(response.RAW.ATOM.USD.HIGHDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[15].market.push(Number(response.RAW.ATOM.USD.MKTCAP.toFixed(2)).toLocaleString());
+            CryptoLocalData[15].volume.push(Number(response.RAW.ATOM.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[15].market_change.push(Number(response.RAW.ATOM.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[15].market_change_percent.push(Number(response.RAW.ATOM.USD.LOWDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[15].total_supply.push(Number(response.RAW.ATOM.USD.SUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[15].circle_supply.push(Number(response.RAW.ATOM.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+        })
+        .catch(err => console.error(err));
+    // -------------------- 
+
+    // BitTorrent
+    fetch(CryptoLocalData[16].code)
+        .then(response => response.json())
+        .then(response => {
+            CryptoLocalData[16].price_comma.push(Number(response.RAW.BTTOLD.USD.PRICE.toFixed(2)).toLocaleString());
+            CryptoLocalData[16].price.push(response.RAW.BTTOLD.USD.PRICE.toFixed(2));
+            CryptoLocalData[16].query_change.push(Number(response.RAW.BTTOLD.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[16].query.push(Number(response.RAW.BTTOLD.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[16].cap.push(Number(response.RAW.BTTOLD.USD.HIGHDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[16].market.push(Number(response.RAW.BTTOLD.USD.MKTCAP.toFixed(2)).toLocaleString());
+            CryptoLocalData[16].volume.push(Number(response.RAW.BTTOLD.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[16].market_change.push(Number(response.RAW.BTTOLD.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[16].market_change_percent.push(Number(response.RAW.BTTOLD.USD.LOWDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[16].total_supply.push(Number(response.RAW.BTTOLD.USD.SUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[16].circle_supply.push(Number(response.RAW.BTTOLD.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+        })
+        .catch(err => console.error(err));
+    // -------------------- 
+
+    // Wakanda Inu
+    fetch(CryptoLocalData[17].code)
+        .then(response => response.json())
+        .then(response => {
+            CryptoLocalData[17].price_comma.push(Number(response.RAW.WKD.USD.PRICE.toFixed(2)).toLocaleString());
+            CryptoLocalData[17].price.push(response.RAW.WKD.USD.PRICE.toFixed(2));
+            CryptoLocalData[17].query_change.push(Number(response.RAW.WKD.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[17].query.push(Number(response.RAW.WKD.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[17].cap.push(Number(response.RAW.WKD.USD.HIGHDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[17].market.push(Number(response.RAW.WKD.USD.MKTCAP.toFixed(2)).toLocaleString());
+            CryptoLocalData[17].volume.push(Number(response.RAW.WKD.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[17].market_change.push(Number(response.RAW.WKD.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[17].market_change_percent.push(Number(response.RAW.WKD.USD.LOWDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[17].total_supply.push(Number(response.RAW.WKD.USD.SUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[17].circle_supply.push(Number(response.RAW.WKD.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+        })
+        .catch(err => console.error(err));
+    // -------------------- 
+
+    // Alien Worlds
+    fetch(CryptoLocalData[18].code)
+        .then(response => response.json())
+        .then(response => {
+            CryptoLocalData[18].price_comma.push(Number(response.RAW.TLM.USD.PRICE.toFixed(2)).toLocaleString());
+            CryptoLocalData[18].price.push(response.RAW.TLM.USD.PRICE.toFixed(2));
+            CryptoLocalData[18].query_change.push(Number(response.RAW.TLM.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[18].query.push(Number(response.RAW.TLM.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[18].cap.push(Number(response.RAW.TLM.USD.HIGHDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[18].market.push(Number(response.RAW.TLM.USD.MKTCAP.toFixed(2)).toLocaleString());
+            CryptoLocalData[18].volume.push(Number(response.RAW.TLM.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[18].market_change.push(Number(response.RAW.TLM.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[18].market_change_percent.push(Number(response.RAW.TLM.USD.LOWDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[18].total_supply.push(Number(response.RAW.TLM.USD.SUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[18].circle_supply.push(Number(response.RAW.TLM.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+        })
+        .catch(err => console.error(err));
+    // -------------------- 
+
+    // Coins98
     fetch(CryptoLocalData[19].code)
         .then(response => response.json())
         .then(response => {
-            CryptoLocalData[19].price_comma.push(Number(response.RAW.LINK.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[19].price.push(response.RAW.LINK.USD.PRICE.toFixed(2));
-            CryptoLocalData[19].query_change.push(Number(response.RAW.LINK.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[19].query.push(Number(response.RAW.LINK.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[19].cap.push(Number(response.RAW.LINK.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[19].market.push(Number(response.RAW.LINK.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[19].volume.push(Number(response.RAW.LINK.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[19].market_change.push(Number(response.RAW.LINK.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[19].market_change_percent.push(Number(response.RAW.LINK.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[19].total_supply.push(Number(response.RAW.LINK.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[19].circle_supply.push(Number(response.RAW.LINK.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[19].price_comma.push(Number(response.RAW.C98.USD.PRICE.toFixed(2)).toLocaleString());
+            CryptoLocalData[19].price.push(response.RAW.C98.USD.PRICE.toFixed(2));
+            CryptoLocalData[19].query_change.push(Number(response.RAW.C98.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[19].query.push(Number(response.RAW.C98.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[19].cap.push(Number(response.RAW.C98.USD.HIGHDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[19].market.push(Number(response.RAW.C98.USD.MKTCAP.toFixed(2)).toLocaleString());
+            CryptoLocalData[19].volume.push(Number(response.RAW.C98.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[19].market_change.push(Number(response.RAW.C98.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[19].market_change_percent.push(Number(response.RAW.C98.USD.LOWDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[19].total_supply.push(Number(response.RAW.C98.USD.SUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[19].circle_supply.push(Number(response.RAW.C98.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
         })
         .catch(err => console.error(err));
     // -------------------- 
 
-    // 
+    // Bitcoin Cash
     fetch(CryptoLocalData[20].code)
         .then(response => response.json())
         .then(response => {
-            CryptoLocalData[20].price_comma.push(Number(response.RAW.ATOM.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[20].price.push(response.RAW.ATOM.USD.PRICE.toFixed(2));
-            CryptoLocalData[20].query_change.push(Number(response.RAW.ATOM.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[20].query.push(Number(response.RAW.ATOM.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[20].cap.push(Number(response.RAW.ATOM.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[20].market.push(Number(response.RAW.ATOM.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[20].volume.push(Number(response.RAW.ATOM.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[20].market_change.push(Number(response.RAW.ATOM.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[20].market_change_percent.push(Number(response.RAW.ATOM.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[20].total_supply.push(Number(response.RAW.ATOM.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[20].circle_supply.push(Number(response.RAW.ATOM.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[20].price_comma.push(Number(response.RAW.BCH.USD.PRICE.toFixed(2)).toLocaleString());
+            CryptoLocalData[20].price.push(response.RAW.BCH.USD.PRICE.toFixed(2));
+            CryptoLocalData[20].query_change.push(Number(response.RAW.BCH.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[20].query.push(Number(response.RAW.BCH.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[20].cap.push(Number(response.RAW.BCH.USD.HIGHDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[20].market.push(Number(response.RAW.BCH.USD.MKTCAP.toFixed(2)).toLocaleString());
+            CryptoLocalData[20].volume.push(Number(response.RAW.BCH.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[20].market_change.push(Number(response.RAW.BCH.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[20].market_change_percent.push(Number(response.RAW.BCH.USD.LOWDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[20].total_supply.push(Number(response.RAW.BCH.USD.SUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[20].circle_supply.push(Number(response.RAW.BCH.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
         })
         .catch(err => console.error(err));
     // -------------------- 
 
-    // LEO
+    // Near Protocol
     fetch(CryptoLocalData[21].code)
         .then(response => response.json())
         .then(response => {
-            CryptoLocalData[21].price_comma.push(Number(response.RAW.LEO.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[21].price.push(response.RAW.LEO.USD.PRICE.toFixed(2));
-            CryptoLocalData[21].query_change.push(Number(response.RAW.LEO.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[21].query.push(Number(response.RAW.LEO.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[21].cap.push(Number(response.RAW.LEO.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[21].market.push(Number(response.RAW.LEO.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[21].volume.push(Number(response.RAW.LEO.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[21].market_change.push(Number(response.RAW.LEO.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[21].market_change_percent.push(Number(response.RAW.LEO.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[21].total_supply.push(Number(response.RAW.LEO.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[21].circle_supply.push(Number(response.RAW.LEO.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[21].price_comma.push(Number(response.RAW.NEAR.USD.PRICE.toFixed(2)).toLocaleString());
+            CryptoLocalData[21].price.push(response.RAW.NEAR.USD.PRICE.toFixed(2));
+            CryptoLocalData[21].query_change.push(Number(response.RAW.NEAR.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[21].query.push(Number(response.RAW.NEAR.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[21].cap.push(Number(response.RAW.NEAR.USD.HIGHDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[21].market.push(Number(response.RAW.NEAR.USD.MKTCAP.toFixed(2)).toLocaleString());
+            CryptoLocalData[21].volume.push(Number(response.RAW.NEAR.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[21].market_change.push(Number(response.RAW.NEAR.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[21].market_change_percent.push(Number(response.RAW.NEAR.USD.LOWDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[21].total_supply.push(Number(response.RAW.NEAR.USD.SUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[21].circle_supply.push(Number(response.RAW.NEAR.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
         })
         .catch(err => console.error(err));
     // -------------------- 
 
-    // 
+    // Pancake Swap
     fetch(CryptoLocalData[22].code)
         .then(response => response.json())
         .then(response => {
-            CryptoLocalData[22].price_comma.push(Number(response.RAW.ETC.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[22].price.push(response.RAW.ETC.USD.PRICE.toFixed(2));
-            CryptoLocalData[22].query_change.push(Number(response.RAW.ETC.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[22].query.push(Number(response.RAW.ETC.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[22].cap.push(Number(response.RAW.ETC.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[22].market.push(Number(response.RAW.ETC.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[22].volume.push(Number(response.RAW.ETC.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[22].market_change.push(Number(response.RAW.ETC.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[22].market_change_percent.push(Number(response.RAW.ETC.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[22].total_supply.push(Number(response.RAW.ETC.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[22].circle_supply.push(Number(response.RAW.ETC.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[22].price_comma.push(Number(response.RAW.CAKE.USD.PRICE.toFixed(2)).toLocaleString());
+            CryptoLocalData[22].price.push(response.RAW.CAKE.USD.PRICE.toFixed(2));
+            CryptoLocalData[22].query_change.push(Number(response.RAW.CAKE.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[22].query.push(Number(response.RAW.CAKE.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[22].cap.push(Number(response.RAW.CAKE.USD.HIGHDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[22].market.push(Number(response.RAW.CAKE.USD.MKTCAP.toFixed(2)).toLocaleString());
+            CryptoLocalData[22].volume.push(Number(response.RAW.CAKE.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[22].market_change.push(Number(response.RAW.CAKE.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[22].market_change_percent.push(Number(response.RAW.CAKE.USD.LOWDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[22].total_supply.push(Number(response.RAW.CAKE.USD.SUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[22].circle_supply.push(Number(response.RAW.CAKE.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
         })
         .catch(err => console.error(err));
     // -------------------- 
 
-    // 
+    // Axie Infinity
     fetch(CryptoLocalData[23].code)
         .then(response => response.json())
         .then(response => {
-            CryptoLocalData[23].price_comma.push(Number(response.RAW.TON.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[23].price.push(response.RAW.TON.USD.PRICE.toFixed(2));
-            CryptoLocalData[23].query_change.push(Number(response.RAW.TON.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[23].query.push(Number(response.RAW.TON.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[23].cap.push(Number(response.RAW.TON.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[23].market.push(Number(response.RAW.TON.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[23].volume.push(Number(response.RAW.TON.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[23].market_change.push(Number(response.RAW.TON.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[23].market_change_percent.push(Number(response.RAW.TON.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[23].total_supply.push(Number(response.RAW.TON.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[23].circle_supply.push(Number(response.RAW.TON.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[23].price_comma.push(Number(response.RAW.AXS.USD.PRICE.toFixed(2)).toLocaleString());
+            CryptoLocalData[23].price.push(response.RAW.AXS.USD.PRICE.toFixed(2));
+            CryptoLocalData[23].query_change.push(Number(response.RAW.AXS.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[23].query.push(Number(response.RAW.AXS.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[23].cap.push(Number(response.RAW.AXS.USD.HIGHDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[23].market.push(Number(response.RAW.AXS.USD.MKTCAP.toFixed(2)).toLocaleString());
+            CryptoLocalData[23].volume.push(Number(response.RAW.AXS.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[23].market_change.push(Number(response.RAW.AXS.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[23].market_change_percent.push(Number(response.RAW.AXS.USD.LOWDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[23].total_supply.push(Number(response.RAW.AXS.USD.SUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[23].circle_supply.push(Number(response.RAW.AXS.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
         })
         .catch(err => console.error(err));
     // -------------------- 
 
-    // 
+    // Basic Attention Token
     fetch(CryptoLocalData[24].code)
         .then(response => response.json())
         .then(response => {
-            CryptoLocalData[24].price_comma.push(Number(response.RAW.OKB.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[24].price.push(response.RAW.OKB.USD.PRICE.toFixed(2));
-            CryptoLocalData[24].query_change.push(Number(response.RAW.OKB.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[24].query.push(Number(response.RAW.OKB.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[24].cap.push(Number(response.RAW.OKB.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[24].market.push(Number(response.RAW.OKB.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[24].volume.push(Number(response.RAW.OKB.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[24].market_change.push(Number(response.RAW.OKB.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[24].market_change_percent.push(Number(response.RAW.OKB.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[24].total_supply.push(Number(response.RAW.OKB.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[24].circle_supply.push(Number(response.RAW.OKB.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[24].price_comma.push(Number(response.RAW.BAT.USD.PRICE.toFixed(2)).toLocaleString());
+            CryptoLocalData[24].price.push(response.RAW.BAT.USD.PRICE.toFixed(2));
+            CryptoLocalData[24].query_change.push(Number(response.RAW.BAT.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[24].query.push(Number(response.RAW.BAT.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[24].cap.push(Number(response.RAW.BAT.USD.HIGHDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[24].market.push(Number(response.RAW.BAT.USD.MKTCAP.toFixed(2)).toLocaleString());
+            CryptoLocalData[24].volume.push(Number(response.RAW.BAT.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[24].market_change.push(Number(response.RAW.BAT.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[24].market_change_percent.push(Number(response.RAW.BAT.USD.LOWDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[24].total_supply.push(Number(response.RAW.BAT.USD.SUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[24].circle_supply.push(Number(response.RAW.BAT.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
         })
         .catch(err => console.error(err));
     // -------------------- 
 
-    // 
+    // Ripple
     fetch(CryptoLocalData[25].code)
         .then(response => response.json())
         .then(response => {
-            CryptoLocalData[25].price_comma.push(Number(response.RAW.XMR.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[25].price.push(response.RAW.XMR.USD.PRICE.toFixed(2));
-            CryptoLocalData[25].query_change.push(Number(response.RAW.XMR.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[25].query.push(Number(response.RAW.XMR.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[25].cap.push(Number(response.RAW.XMR.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[25].market.push(Number(response.RAW.XMR.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[25].volume.push(Number(response.RAW.XMR.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[25].market_change.push(Number(response.RAW.XMR.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[25].market_change_percent.push(Number(response.RAW.XMR.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[25].total_supply.push(Number(response.RAW.XMR.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[25].circle_supply.push(Number(response.RAW.XMR.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[26].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[26].price_comma.push(Number(response.RAW.BCH.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[26].price.push(response.RAW.BCH.USD.PRICE.toFixed(2));
-            CryptoLocalData[26].query_change.push(Number(response.RAW.BCH.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[26].query.push(Number(response.RAW.BCH.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[26].cap.push(Number(response.RAW.BCH.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[26].market.push(Number(response.RAW.BCH.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[26].volume.push(Number(response.RAW.BCH.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[26].market_change.push(Number(response.RAW.BCH.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[26].market_change_percent.push(Number(response.RAW.BCH.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[26].total_supply.push(Number(response.RAW.BCH.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[26].circle_supply.push(Number(response.RAW.BCH.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[27].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[27].price_comma.push(Number(response.RAW.FIL.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[27].price.push(response.RAW.FIL.USD.PRICE.toFixed(2));
-            CryptoLocalData[27].query_change.push(Number(response.RAW.FIL.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[27].query.push(Number(response.RAW.FIL.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[27].cap.push(Number(response.RAW.FIL.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[27].market.push(Number(response.RAW.FIL.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[27].volume.push(Number(response.RAW.FIL.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[27].market_change.push(Number(response.RAW.FIL.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[27].market_change_percent.push(Number(response.RAW.FIL.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[27].total_supply.push(Number(response.RAW.FIL.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[27].circle_supply.push(Number(response.RAW.FIL.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[28].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[28].price_comma.push(Number(response.RAW.APT.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[28].price.push(response.RAW.APT.USD.PRICE.toFixed(2));
-            CryptoLocalData[28].query_change.push(Number(response.RAW.APT.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[28].query.push(Number(response.RAW.APT.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[28].cap.push(Number(response.RAW.APT.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[28].market.push(Number(response.RAW.APT.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[28].volume.push(Number(response.RAW.APT.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[28].market_change.push(Number(response.RAW.APT.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[28].market_change_percent.push(Number(response.RAW.APT.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[28].total_supply.push(Number(response.RAW.APT.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[28].circle_supply.push(Number(response.RAW.APT.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[29].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[29].price_comma.push(Number(response.RAW.XLM.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[29].price.push(response.RAW.XLM.USD.PRICE.toFixed(2));
-            CryptoLocalData[29].query_change.push(Number(response.RAW.XLM.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[29].query.push(Number(response.RAW.XLM.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[29].cap.push(Number(response.RAW.XLM.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[29].market.push(Number(response.RAW.XLM.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[29].volume.push(Number(response.RAW.XLM.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[29].market_change.push(Number(response.RAW.XLM.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[29].market_change_percent.push(Number(response.RAW.XLM.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[29].total_supply.push(Number(response.RAW.XLM.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[29].circle_supply.push(Number(response.RAW.XLM.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[30].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[30].price_comma.push(Number(response.RAW.LDO.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[30].price.push(response.RAW.LDO.USD.PRICE.toFixed(2));
-            CryptoLocalData[30].query_change.push(Number(response.RAW.LDO.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[30].query.push(Number(response.RAW.LDO.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[30].cap.push(Number(response.RAW.LDO.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[30].market.push(Number(response.RAW.LDO.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[30].volume.push(Number(response.RAW.LDO.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[30].market_change.push(Number(response.RAW.LDO.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[30].market_change_percent.push(Number(response.RAW.LDO.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[30].total_supply.push(Number(response.RAW.LDO.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[30].circle_supply.push(Number(response.RAW.LDO.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[31].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[31].price_comma.push(Number(response.RAW.TUSD.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[31].price.push(response.RAW.TUSD.USD.PRICE.toFixed(2));
-            CryptoLocalData[31].query_change.push(Number(response.RAW.TUSD.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[31].query.push(Number(response.RAW.TUSD.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[31].cap.push(Number(response.RAW.TUSD.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[31].market.push(Number(response.RAW.TUSD.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[31].volume.push(Number(response.RAW.TUSD.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[31].market_change.push(Number(response.RAW.TUSD.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[31].market_change_percent.push(Number(response.RAW.TUSD.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[31].total_supply.push(Number(response.RAW.TUSD.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[31].circle_supply.push(Number(response.RAW.TUSD.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[32].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[32].price_comma.push(Number(response.RAW.NEAR.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[32].price.push(response.RAW.NEAR.USD.PRICE.toFixed(2));
-            CryptoLocalData[32].query_change.push(Number(response.RAW.NEAR.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[32].query.push(Number(response.RAW.NEAR.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[32].cap.push(Number(response.RAW.NEAR.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[32].market.push(Number(response.RAW.NEAR.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[32].volume.push(Number(response.RAW.NEAR.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[32].market_change.push(Number(response.RAW.NEAR.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[32].market_change_percent.push(Number(response.RAW.NEAR.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[32].total_supply.push(Number(response.RAW.NEAR.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[32].circle_supply.push(Number(response.RAW.NEAR.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[33].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[33].price_comma.push(Number(response.RAW.CRO.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[33].price.push(response.RAW.CRO.USD.PRICE.toFixed(2));
-            CryptoLocalData[33].query_change.push(Number(response.RAW.CRO.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[33].query.push(Number(response.RAW.CRO.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[33].cap.push(Number(response.RAW.CRO.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[33].market.push(Number(response.RAW.CRO.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[33].volume.push(Number(response.RAW.CRO.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[33].market_change.push(Number(response.RAW.CRO.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[33].market_change_percent.push(Number(response.RAW.CRO.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[33].total_supply.push(Number(response.RAW.CRO.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[33].circle_supply.push(Number(response.RAW.CRO.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[34].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[34].price_comma.push(Number(response.RAW.VET.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[34].price.push(response.RAW.VET.USD.PRICE.toFixed(2));
-            CryptoLocalData[34].query_change.push(Number(response.RAW.VET.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[34].query.push(Number(response.RAW.VET.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[34].cap.push(Number(response.RAW.VET.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[34].market.push(Number(response.RAW.VET.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[34].volume.push(Number(response.RAW.VET.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[34].market_change.push(Number(response.RAW.VET.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[34].market_change_percent.push(Number(response.RAW.VET.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[34].total_supply.push(Number(response.RAW.VET.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[34].circle_supply.push(Number(response.RAW.VET.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[35].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[35].price_comma.push(Number(response.RAW.ICP.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[35].price.push(response.RAW.ICP.USD.PRICE.toFixed(2));
-            CryptoLocalData[35].query_change.push(Number(response.RAW.ICP.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[35].query.push(Number(response.RAW.ICP.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[35].cap.push(Number(response.RAW.ICP.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[35].market.push(Number(response.RAW.ICP.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[35].volume.push(Number(response.RAW.ICP.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[35].market_change.push(Number(response.RAW.ICP.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[35].market_change_percent.push(Number(response.RAW.ICP.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[35].total_supply.push(Number(response.RAW.ICP.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[35].circle_supply.push(Number(response.RAW.ICP.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[36].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[36].price_comma.push(Number(response.RAW.APE.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[36].price.push(response.RAW.APE.USD.PRICE.toFixed(2));
-            CryptoLocalData[36].query_change.push(Number(response.RAW.APE.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[36].query.push(Number(response.RAW.APE.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[36].cap.push(Number(response.RAW.APE.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[36].market.push(Number(response.RAW.APE.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[36].volume.push(Number(response.RAW.APE.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[36].market_change.push(Number(response.RAW.APE.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[36].market_change_percent.push(Number(response.RAW.APE.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[36].total_supply.push(Number(response.RAW.APE.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[36].circle_supply.push(Number(response.RAW.APE.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[37].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[37].price_comma.push(Number(response.RAW.ALGO.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[37].price.push(response.RAW.ALGO.USD.PRICE.toFixed(2));
-            CryptoLocalData[37].query_change.push(Number(response.RAW.ALGO.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[37].query.push(Number(response.RAW.ALGO.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[37].cap.push(Number(response.RAW.ALGO.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[37].market.push(Number(response.RAW.ALGO.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[37].volume.push(Number(response.RAW.ALGO.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[37].market_change.push(Number(response.RAW.ALGO.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[37].market_change_percent.push(Number(response.RAW.ALGO.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[37].total_supply.push(Number(response.RAW.ALGO.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[37].circle_supply.push(Number(response.RAW.ALGO.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[38].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[38].price_comma.push(Number(response.RAW.QNT.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[38].price.push(response.RAW.QNT.USD.PRICE.toFixed(2));
-            CryptoLocalData[38].query_change.push(Number(response.RAW.QNT.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[38].query.push(Number(response.RAW.QNT.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[38].cap.push(Number(response.RAW.QNT.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[38].market.push(Number(response.RAW.QNT.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[38].volume.push(Number(response.RAW.QNT.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[38].market_change.push(Number(response.RAW.QNT.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[38].market_change_percent.push(Number(response.RAW.QNT.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[38].total_supply.push(Number(response.RAW.QNT.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[38].circle_supply.push(Number(response.RAW.QNT.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[39].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[39].price_comma.push(Number(response.RAW.STX.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[39].price.push(response.RAW.STX.USD.PRICE.toFixed(2));
-            CryptoLocalData[39].query_change.push(Number(response.RAW.STX.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[39].query.push(Number(response.RAW.STX.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[39].cap.push(Number(response.RAW.STX.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[39].market.push(Number(response.RAW.STX.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[39].volume.push(Number(response.RAW.STX.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[39].market_change.push(Number(response.RAW.STX.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[39].market_change_percent.push(Number(response.RAW.STX.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[39].total_supply.push(Number(response.RAW.STX.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[39].circle_supply.push(Number(response.RAW.STX.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // --------------------
-
-    // 
-    fetch(CryptoLocalData[40].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[40].price_comma.push(Number(response.RAW.GRT.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[40].price.push(response.RAW.GRT.USD.PRICE.toFixed(2));
-            CryptoLocalData[40].query_change.push(Number(response.RAW.GRT.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[40].query.push(Number(response.RAW.GRT.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[40].cap.push(Number(response.RAW.GRT.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[40].market.push(Number(response.RAW.GRT.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[40].volume.push(Number(response.RAW.GRT.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[40].market_change.push(Number(response.RAW.GRT.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[40].market_change_percent.push(Number(response.RAW.GRT.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[40].total_supply.push(Number(response.RAW.GRT.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[40].circle_supply.push(Number(response.RAW.GRT.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // --------------------  
-
-    // 
-    fetch(CryptoLocalData[41].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[41].price_comma.push(Number(response.RAW.FTM.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[41].price.push(response.RAW.FTM.USD.PRICE.toFixed(2));
-            CryptoLocalData[41].query_change.push(Number(response.RAW.FTM.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[41].query.push(Number(response.RAW.FTM.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[41].cap.push(Number(response.RAW.FTM.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[41].market.push(Number(response.RAW.FTM.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[41].volume.push(Number(response.RAW.FTM.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[41].market_change.push(Number(response.RAW.FTM.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[41].market_change_percent.push(Number(response.RAW.FTM.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[41].total_supply.push(Number(response.RAW.FTM.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[41].circle_supply.push(Number(response.RAW.FTM.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[42].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[42].price_comma.push(Number(response.RAW.IMX.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[42].price.push(response.RAW.IMX.USD.PRICE.toFixed(2));
-            CryptoLocalData[42].query_change.push(Number(response.RAW.IMX.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[42].query.push(Number(response.RAW.IMX.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[42].cap.push(Number(response.RAW.IMX.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[42].market.push(Number(response.RAW.IMX.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[42].volume.push(Number(response.RAW.IMX.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[42].market_change.push(Number(response.RAW.IMX.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[42].market_change_percent.push(Number(response.RAW.IMX.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[42].total_supply.push(Number(response.RAW.IMX.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[42].circle_supply.push(Number(response.RAW.IMX.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[43].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[43].price_comma.push(Number(response.RAW.EOS.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[43].price.push(response.RAW.EOS.USD.PRICE.toFixed(2));
-            CryptoLocalData[43].query_change.push(Number(response.RAW.EOS.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[43].query.push(Number(response.RAW.EOS.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[43].cap.push(Number(response.RAW.EOS.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[43].market.push(Number(response.RAW.EOS.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[43].volume.push(Number(response.RAW.EOS.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[43].market_change.push(Number(response.RAW.EOS.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[43].market_change_percent.push(Number(response.RAW.EOS.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[43].total_supply.push(Number(response.RAW.EOS.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[43].circle_supply.push(Number(response.RAW.EOS.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-    // 
-    fetch(CryptoLocalData[44].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[44].price_comma.push(Number(response.RAW.MANA.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[44].price.push(response.RAW.MANA.USD.PRICE.toFixed(2));
-            CryptoLocalData[44].query_change.push(Number(response.RAW.MANA.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[44].query.push(Number(response.RAW.MANA.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[44].cap.push(Number(response.RAW.MANA.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[44].market.push(Number(response.RAW.MANA.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[44].volume.push(Number(response.RAW.MANA.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[44].market_change.push(Number(response.RAW.MANA.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[44].market_change_percent.push(Number(response.RAW.MANA.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[44].total_supply.push(Number(response.RAW.MANA.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[44].circle_supply.push(Number(response.RAW.MANA.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[45].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[45].price_comma.push(Number(response.RAW.BIT.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[45].price.push(response.RAW.BIT.USD.PRICE.toFixed(2));
-            CryptoLocalData[45].query_change.push(Number(response.RAW.BIT.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[45].query.push(Number(response.RAW.BIT.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[45].cap.push(Number(response.RAW.BIT.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[45].market.push(Number(response.RAW.BIT.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[45].volume.push(Number(response.RAW.BIT.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[45].market_change.push(Number(response.RAW.BIT.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[45].market_change_percent.push(Number(response.RAW.BIT.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[45].total_supply.push(Number(response.RAW.BIT.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[45].circle_supply.push(Number(response.RAW.BIT.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[46].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[46].price_comma.push(Number(response.RAW.XTZ.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[46].price.push(response.RAW.XTZ.USD.PRICE.toFixed(2));
-            CryptoLocalData[46].query_change.push(Number(response.RAW.XTZ.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[46].query.push(Number(response.RAW.XTZ.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[46].cap.push(Number(response.RAW.XTZ.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[46].market.push(Number(response.RAW.XTZ.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[46].volume.push(Number(response.RAW.XTZ.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[46].market_change.push(Number(response.RAW.XTZ.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[46].market_change_percent.push(Number(response.RAW.XTZ.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[46].total_supply.push(Number(response.RAW.XTZ.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[46].circle_supply.push(Number(response.RAW.XTZ.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[47].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[47].price_comma.push(Number(response.RAW.AAVE.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[47].price.push(response.RAW.AAVE.USD.PRICE.toFixed(2));
-            CryptoLocalData[47].query_change.push(Number(response.RAW.AAVE.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[47].query.push(Number(response.RAW.AAVE.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[47].cap.push(Number(response.RAW.AAVE.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[47].market.push(Number(response.RAW.AAVE.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[47].volume.push(Number(response.RAW.AAVE.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[47].market_change.push(Number(response.RAW.AAVE.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[47].market_change_percent.push(Number(response.RAW.AAVE.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[47].total_supply.push(Number(response.RAW.AAVE.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[47].circle_supply.push(Number(response.RAW.AAVE.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[48].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[48].price_comma.push(Number(response.RAW.FLOW.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[48].price.push(response.RAW.FLOW.USD.PRICE.toFixed(2));
-            CryptoLocalData[48].query_change.push(Number(response.RAW.FLOW.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[48].query.push(Number(response.RAW.FLOW.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[48].cap.push(Number(response.RAW.FLOW.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[48].market.push(Number(response.RAW.FLOW.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[48].volume.push(Number(response.RAW.FLOW.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[48].market_change.push(Number(response.RAW.FLOW.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[48].market_change_percent.push(Number(response.RAW.FLOW.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[48].total_supply.push(Number(response.RAW.FLOW.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[48].circle_supply.push(Number(response.RAW.FLOW.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[49].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[49].price_comma.push(Number(response.RAW.EGLD.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[49].price.push(response.RAW.EGLD.USD.PRICE.toFixed(2));
-            CryptoLocalData[49].query_change.push(Number(response.RAW.EGLD.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[49].query.push(Number(response.RAW.EGLD.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[49].cap.push(Number(response.RAW.EGLD.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[49].market.push(Number(response.RAW.EGLD.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[49].volume.push(Number(response.RAW.EGLD.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[49].market_change.push(Number(response.RAW.EGLD.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[49].market_change_percent.push(Number(response.RAW.EGLD.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[49].total_supply.push(Number(response.RAW.EGLD.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[49].circle_supply.push(Number(response.RAW.EGLD.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[50].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[50].price_comma.push(Number(response.RAW.THETA.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[50].price.push(response.RAW.THETA.USD.PRICE.toFixed(2));
-            CryptoLocalData[50].query_change.push(Number(response.RAW.THETA.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[50].query.push(Number(response.RAW.THETA.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[50].cap.push(Number(response.RAW.THETA.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[50].market.push(Number(response.RAW.THETA.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[50].volume.push(Number(response.RAW.THETA.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[50].market_change.push(Number(response.RAW.THETA.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[50].market_change_percent.push(Number(response.RAW.THETA.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[50].total_supply.push(Number(response.RAW.THETA.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[50].circle_supply.push(Number(response.RAW.THETA.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[51].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[51].price_comma.push(Number(response.RAW.AXS.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[51].price.push(response.RAW.AXS.USD.PRICE.toFixed(2));
-            CryptoLocalData[51].query_change.push(Number(response.RAW.AXS.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[51].query.push(Number(response.RAW.AXS.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[51].cap.push(Number(response.RAW.AXS.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[51].market.push(Number(response.RAW.AXS.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[51].volume.push(Number(response.RAW.AXS.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[51].market_change.push(Number(response.RAW.AXS.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[51].market_change_percent.push(Number(response.RAW.AXS.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[51].total_supply.push(Number(response.RAW.AXS.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[51].circle_supply.push(Number(response.RAW.AXS.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[52].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[52].price_comma.push(Number(response.RAW.CFX.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[52].price.push(response.RAW.CFX.USD.PRICE.toFixed(2));
-            CryptoLocalData[52].query_change.push(Number(response.RAW.CFX.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[52].query.push(Number(response.RAW.CFX.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[52].cap.push(Number(response.RAW.CFX.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[52].market.push(Number(response.RAW.CFX.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[52].volume.push(Number(response.RAW.CFX.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[52].market_change.push(Number(response.RAW.CFX.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[52].market_change_percent.push(Number(response.RAW.CFX.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[52].total_supply.push(Number(response.RAW.CFX.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[52].circle_supply.push(Number(response.RAW.CFX.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[53].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[53].price_comma.push(Number(response.RAW.SAND.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[53].price.push(response.RAW.SAND.USD.PRICE.toFixed(2));
-            CryptoLocalData[53].query_change.push(Number(response.RAW.SAND.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[53].query.push(Number(response.RAW.SAND.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[53].cap.push(Number(response.RAW.SAND.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[53].market.push(Number(response.RAW.SAND.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[53].volume.push(Number(response.RAW.SAND.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[53].market_change.push(Number(response.RAW.SAND.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[53].market_change_percent.push(Number(response.RAW.SAND.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[53].total_supply.push(Number(response.RAW.SAND.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[53].circle_supply.push(Number(response.RAW.SAND.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[54].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[54].price_comma.push(Number(response.RAW.KCS.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[54].price.push(response.RAW.KCS.USD.PRICE.toFixed(2));
-            CryptoLocalData[54].query_change.push(Number(response.RAW.KCS.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[54].query.push(Number(response.RAW.KCS.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[54].cap.push(Number(response.RAW.KCS.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[54].market.push(Number(response.RAW.KCS.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[54].volume.push(Number(response.RAW.KCS.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[54].market_change.push(Number(response.RAW.KCS.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[54].market_change_percent.push(Number(response.RAW.KCS.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[54].total_supply.push(Number(response.RAW.KCS.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[54].circle_supply.push(Number(response.RAW.KCS.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[55].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[55].price_comma.push(Number(response.RAW.NEO.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[55].price.push(response.RAW.NEO.USD.PRICE.toFixed(2));
-            CryptoLocalData[55].query_change.push(Number(response.RAW.NEO.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[55].query.push(Number(response.RAW.NEO.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[55].cap.push(Number(response.RAW.NEO.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[55].market.push(Number(response.RAW.NEO.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[55].volume.push(Number(response.RAW.NEO.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[55].market_change.push(Number(response.RAW.NEO.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[55].market_change_percent.push(Number(response.RAW.NEO.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[55].total_supply.push(Number(response.RAW.NEO.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[55].circle_supply.push(Number(response.RAW.NEO.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[56].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[56].price_comma.push(Number(response.RAW.USDP.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[56].price.push(response.RAW.USDP.USD.PRICE.toFixed(2));
-            CryptoLocalData[56].query_change.push(Number(response.RAW.USDP.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[56].query.push(Number(response.RAW.USDP.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[56].cap.push(Number(response.RAW.USDP.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[56].market.push(Number(response.RAW.USDP.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[56].volume.push(Number(response.RAW.USDP.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[56].market_change.push(Number(response.RAW.USDP.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[56].market_change_percent.push(Number(response.RAW.USDP.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[56].total_supply.push(Number(response.RAW.USDP.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[56].circle_supply.push(Number(response.RAW.USDP.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[57].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[57].price_comma.push(Number(response.RAW.OP.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[57].price.push(response.RAW.OP.USD.PRICE.toFixed(2));
-            CryptoLocalData[57].query_change.push(Number(response.RAW.OP.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[57].query.push(Number(response.RAW.OP.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[57].cap.push(Number(response.RAW.OP.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[57].market.push(Number(response.RAW.OP.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[57].volume.push(Number(response.RAW.OP.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[57].market_change.push(Number(response.RAW.OP.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[57].market_change_percent.push(Number(response.RAW.OP.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[57].total_supply.push(Number(response.RAW.OP.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[57].circle_supply.push(Number(response.RAW.OP.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[58].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[58].price_comma.push(Number(response.RAW.RPL.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[58].price.push(response.RAW.RPL.USD.PRICE.toFixed(2));
-            CryptoLocalData[58].query_change.push(Number(response.RAW.RPL.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[58].query.push(Number(response.RAW.RPL.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[58].cap.push(Number(response.RAW.RPL.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[58].market.push(Number(response.RAW.RPL.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[58].volume.push(Number(response.RAW.RPL.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[58].market_change.push(Number(response.RAW.RPL.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[58].market_change_percent.push(Number(response.RAW.RPL.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[58].total_supply.push(Number(response.RAW.RPL.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[58].circle_supply.push(Number(response.RAW.RPL.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[59].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[59].price_comma.push(Number(response.RAW.CHZ.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[59].price.push(response.RAW.CHZ.USD.PRICE.toFixed(2));
-            CryptoLocalData[59].query_change.push(Number(response.RAW.CHZ.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[59].query.push(Number(response.RAW.CHZ.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[59].cap.push(Number(response.RAW.CHZ.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[59].market.push(Number(response.RAW.CHZ.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[59].volume.push(Number(response.RAW.CHZ.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[59].market_change.push(Number(response.RAW.CHZ.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[59].market_change_percent.push(Number(response.RAW.CHZ.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[59].total_supply.push(Number(response.RAW.CHZ.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[59].circle_supply.push(Number(response.RAW.CHZ.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[60].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[60].price_comma.push(Number(response.RAW.CRV.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[60].price.push(response.RAW.CRV.USD.PRICE.toFixed(2));
-            CryptoLocalData[60].query_change.push(Number(response.RAW.CRV.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[60].query.push(Number(response.RAW.CRV.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[60].cap.push(Number(response.RAW.CRV.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[60].market.push(Number(response.RAW.CRV.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[60].volume.push(Number(response.RAW.CRV.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[60].market_change.push(Number(response.RAW.CRV.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[60].market_change_percent.push(Number(response.RAW.CRV.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[60].total_supply.push(Number(response.RAW.CRV.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[60].circle_supply.push(Number(response.RAW.CRV.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[61].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[61].price_comma.push(Number(response.RAW.MINA.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[61].price.push(response.RAW.MINA.USD.PRICE.toFixed(2));
-            CryptoLocalData[61].query_change.push(Number(response.RAW.MINA.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[61].query.push(Number(response.RAW.MINA.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[61].cap.push(Number(response.RAW.MINA.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[61].market.push(Number(response.RAW.MINA.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[61].volume.push(Number(response.RAW.MINA.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[61].market_change.push(Number(response.RAW.MINA.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[61].market_change_percent.push(Number(response.RAW.MINA.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[61].total_supply.push(Number(response.RAW.MINA.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[61].circle_supply.push(Number(response.RAW.MINA.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
-        })
-        .catch(err => console.error(err));
-    // -------------------- 
-
-    // 
-    fetch(CryptoLocalData[62].code)
-        .then(response => response.json())
-        .then(response => {
-            CryptoLocalData[62].price_comma.push(Number(response.RAW.KLAY.USD.PRICE.toFixed(2)).toLocaleString());
-            CryptoLocalData[62].price.push(response.RAW.KLAY.USD.PRICE.toFixed(2));
-            CryptoLocalData[62].query_change.push(Number(response.RAW.KLAY.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[62].query.push(Number(response.RAW.KLAY.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
-            CryptoLocalData[62].cap.push(Number(response.RAW.KLAY.USD.HIGHDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[62].market.push(Number(response.RAW.KLAY.USD.MKTCAP.toFixed(2)).toLocaleString());
-            CryptoLocalData[62].volume.push(Number(response.RAW.KLAY.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[62].market_change.push(Number(response.RAW.KLAY.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
-            CryptoLocalData[62].market_change_percent.push(Number(response.RAW.KLAY.USD.LOWDAY.toFixed(2)).toLocaleString());
-            CryptoLocalData[62].total_supply.push(Number(response.RAW.KLAY.USD.SUPPLY.toFixed(2)).toLocaleString());
-            CryptoLocalData[62].circle_supply.push(Number(response.RAW.KLAY.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[25].price_comma.push(Number(response.RAW.XPR.USD.PRICE.toFixed(2)).toLocaleString());
+            CryptoLocalData[25].price.push(response.RAW.XPR.USD.PRICE.toFixed(2));
+            CryptoLocalData[25].query_change.push(Number(response.RAW.XPR.USD.CHANGE24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[25].query.push(Number(response.RAW.XPR.USD.CHANGEPCT24HOUR.toFixed(2)).toLocaleString());
+            CryptoLocalData[25].cap.push(Number(response.RAW.XPR.USD.HIGHDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[25].market.push(Number(response.RAW.XPR.USD.MKTCAP.toFixed(2)).toLocaleString());
+            CryptoLocalData[25].volume.push(Number(response.RAW.XPR.USD.TOTALVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[25].market_change.push(Number(response.RAW.XPR.USD.TOTALTOPTIERVOLUME24H.toFixed(2)).toLocaleString());
+            CryptoLocalData[25].market_change_percent.push(Number(response.RAW.XPR.USD.LOWDAY.toFixed(2)).toLocaleString());
+            CryptoLocalData[25].total_supply.push(Number(response.RAW.XPR.USD.SUPPLY.toFixed(2)).toLocaleString());
+            CryptoLocalData[25].circle_supply.push(Number(response.RAW.XPR.USD.CIRCULATINGSUPPLY.toFixed(2)).toLocaleString());
         })
         .catch(err => console.error(err));
     // -------------------- 

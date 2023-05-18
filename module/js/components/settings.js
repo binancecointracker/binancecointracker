@@ -274,7 +274,7 @@ class Settings extends HTMLElement{
                                         <div class="hmepg-main-token-con add-token-main-token-con-pad">
                                             <!-- Left container -->
                                             <div class="hmepg-sub-token-left-con">
-                                                <span class="hmepg-token-name settings-token-name one-line">Contact Telegram Support</span>
+                                                <span class="hmepg-token-name settings-token-name one-line">Contact Binance Support</span>
                                             </div>
                                             <!-- Right container-->
                                             <div class="hmepg-sub-token-right-con">

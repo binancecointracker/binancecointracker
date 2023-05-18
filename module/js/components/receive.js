@@ -47,7 +47,7 @@ class Receive extends HTMLElement{
                                 <div id="receive-wallet-address" class="receive-wallet-address one-line">${ CryptoLocalData[TokenPage].wallet }</div>
 
                                 <!-- wallet address -->
-                                <div id="receive-network" class="receive-network one-line">NETWORK: ${ CryptoLocalData[TokenPage].network }</div>
+                                <div id="receive-network" class="receive-network one-line">Token: ${ CryptoLocalData[TokenPage].network }</div>
                             </div>
                         </div>
 
@@ -61,7 +61,7 @@ class Receive extends HTMLElement{
                             </div>
                             <!-- receive note  -->
                             <div class="receive-note" id="receive-note-2">
-                                Send only ${ CryptoLocalData[TokenPage].name } (${ CryptoLocalData[TokenPage].symbol }) to the Network "${ CryptoLocalData[TokenPage].network }".<br>
+                                Send only ${ CryptoLocalData[TokenPage].name } (${ CryptoLocalData[TokenPage].symbol }) to this Address.<br>
                                 Failure to do so, may result in permanent loss!
                             </div>
                         </div>

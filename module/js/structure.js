@@ -2368,7 +2368,55 @@
                 invite.style.display = "none";
                 refhis.style.display = "none";
 
-                document.getElementById("about-header-back").setAttribute("onclick", "javascript: AssetsToAbout()");
+                document.getElementById("about-header-back").setAttribute("onclick", "javascript: AboutToAssets()");
+            };
+        // -------------------- 
+
+        //  About to assets page     ##### 1
+            function AboutToAssets() {
+                secondContainer();
+                
+                //  first container
+                SettingsFirstClose(); 
+                menu.style.display = "flex"; // -------------------- Container -------------------- 
+
+                //  second container
+                account.style.display = "none";
+                assets.style.display = "flex"; // -------------------- Container -------------------- 
+                convert.style.display = "none";
+                help.style.display = "none";
+                home.style.display = "none";
+                message.style.display = "none";
+                notification.style.display = "none";
+                referral.style.display = "none";
+                SettingsSecondClose();
+                token.style.display = "none";
+                transactionhistory.style.display = "none";
+
+                //  third container 
+                about.style.display = "flex"; // -------------------- Container -------------------- 
+                addtoken.style.display = "none";
+                bioauth.style.display = "none";
+                changepassword.style.display = "none";
+                convertselect.style.display = "none";
+                forgotpassword.style.display = "none";
+                language.style.display = "none";
+                marketinfo.style.display = "none";
+                passcode.style.display = "none";
+                pattern.style.display = "none";
+                paypin.style.display = "none";
+                profile.style.display = "none";
+                receive.style.display = "none";
+                rememberpassword.style.display = "none";
+                rules.style.display = "none";
+                sendselect.style.display = "none";
+                receiveselect.style.display = "none";
+                send.style.display = "none";
+                support.style.display = "none";
+                verification.style.display = "none";
+                userinfoslide.style.display = "none";
+                invite.style.display = "none";
+                refhis.style.display = "none";
             };
         // -------------------- 
         
