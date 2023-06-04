@@ -104,7 +104,7 @@ class Home extends HTMLElement{
                                             </div>
                                             
                                             <!-- Second out of three containers-->
-                                            <p class="card-amount line-height one-line" id="user-balance">$0.00</p>
+                                            <p class="card-amount user-card-amount line-height one-line" id="user-balance">$0.00</p>
                                             
                                             <!-- Third container -->
                                             <div class="card-bottom-wrap">

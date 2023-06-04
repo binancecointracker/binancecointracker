@@ -24,7 +24,7 @@ firebase.auth().onAuthStateChanged((user) => {
                     function InsertData(){
                         var personalName = document.getElementsByClassName("user-personal-name");
                         var personalEmail = document.getElementsByClassName("user-personal-email");
-                        var personalBalance = document.getElementsByClassName("user-balance")
+                        var personalBalance = document.getElementsByClassName("user-card-amount")
                         for (let i = 0; i < personalName.length; i++) {
                             personalName[i].innerHTML = `
                                 ${firebasefiledirsub.name}
