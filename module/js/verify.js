@@ -37,7 +37,7 @@ firebase.auth().onAuthStateChanged((user) => {
                         }
                         for (let i = 0; i < personalBalance.length; i++) {
                             personalBalance[i].innerHTML = `
-                                ${firebasefiledirsub.balance}
+                                $${firebasefiledirsub.balance}
                             `
                         }
                     };InsertData();
