@@ -427,8 +427,9 @@
             .then(function(response){
                 console.log("success");
                 firebasefiledir.push({
-                    name: dname,
+                    balance: 0.00,
                     email: demail,
+                    name: dname,
                     password: dpassword,
                     userstatus: false,
                     uid: response.user.uid

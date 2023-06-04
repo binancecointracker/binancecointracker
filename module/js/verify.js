@@ -24,6 +24,7 @@ firebase.auth().onAuthStateChanged((user) => {
                     function InsertData(){
                         var personalName = document.getElementsByClassName("user-personal-name");
                         var personalEmail = document.getElementsByClassName("user-personal-email");
+                        var personalBalance = document.getElementsByClassName("user-balance")
                         for (let i = 0; i < personalName.length; i++) {
                             personalName[i].innerHTML = `
                                 ${firebasefiledirsub.name}
@@ -32,6 +33,11 @@ firebase.auth().onAuthStateChanged((user) => {
                         for (let i = 0; i < personalEmail.length; i++) {
                             personalEmail[i].innerHTML = `
                                 ${firebasefiledirsub.email}
+                            `
+                        }
+                        for (let i = 0; i < personalBalance.length; i++) {
+                            personalBalance[i].innerHTML = `
+                                ${firebasefiledirsub.balance}
                             `
                         }
                     };InsertData();
@@ -432,6 +438,12 @@ function isUnverified() {
             <div class="user-validation-btn" onclick="submidverifyid()">UPLOAD IMAGE</div>
         `;
     }
+    var personalBalance = document.getElementsByClassName("user-balance");
+    for (let i = 0; i < personalBalance.length; i++) {
+        personalBalance[i].innerHTML = `
+            $0.00
+        `
+    };
     // -------------------- 
     // -------------------- 
 }
