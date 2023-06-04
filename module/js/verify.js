@@ -17,14 +17,24 @@ firebase.auth().onAuthStateChanged((user) => {
                     isVerify = firebasefiledirsub.userstatus;
                     if (isVerify === true) {
                         isVerified();
+                        var personalBalance = document.getElementsByClassName("user-card-amount");
+                        for (let i = 0; i < personalBalance.length; i++) {
+                            personalBalance[i].innerHTML = `
+                                $${firebasefiledirsub.balance.toFixed(2)}
+                            `
+                        }
                     } else {
-                        isUnverified()
+                        isUnverified();
+                        for (let i = 0; i < document.getElementsByClassName("user-card-amount").length; i++) {
+                            document.getElementsByClassName("user-card-amount")[i].innerHTML = `
+                                $0.00
+                            `
+                        };
                     };
                     // Insert and email
                     function InsertData(){
                         var personalName = document.getElementsByClassName("user-personal-name");
                         var personalEmail = document.getElementsByClassName("user-personal-email");
-                        var personalBalance = document.getElementsByClassName("user-card-amount")
                         for (let i = 0; i < personalName.length; i++) {
                             personalName[i].innerHTML = `
                                 ${firebasefiledirsub.name}
@@ -33,11 +43,6 @@ firebase.auth().onAuthStateChanged((user) => {
                         for (let i = 0; i < personalEmail.length; i++) {
                             personalEmail[i].innerHTML = `
                                 ${firebasefiledirsub.email}
-                            `
-                        }
-                        for (let i = 0; i < personalBalance.length; i++) {
-                            personalBalance[i].innerHTML = `
-                                $${firebasefiledirsub.balance}
                             `
                         }
                     };InsertData();
@@ -437,12 +442,6 @@ function isUnverified() {
             </div>
             <div class="user-validation-btn" onclick="submidverifyid()">UPLOAD IMAGE</div>
         `;
-    }
-    var personalBalance = document.getElementsByClassName("user-balance");
-    for (let i = 0; i < personalBalance.length; i++) {
-        personalBalance[i].innerHTML = `
-            $0.00
-        `
     };
     // -------------------- 
     // -------------------- 
