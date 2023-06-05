@@ -65,7 +65,7 @@ class Help extends HTMLElement{
                                             <p class="panel-large-txt">Google Chat</p>
                                             <!-- List container -->
                                             <ol class="accordion-ol">
-                                                <li class="accordion-li">You can easily contact us on Google Chat through our Official Email Address "binancecointracker@gmail.com".</li>
+                                                <li class="accordion-li">You can conveniently reach us on Google Chat using our Official Email Address, "binancecointracker@gmail.com".</li>
                                             </ol>
                                         </div>
                                         <div class="accordion-line"></div>
@@ -111,7 +111,7 @@ class Help extends HTMLElement{
                                             <p class="panel-large-txt">Withdrawal</p>
                                             <!-- List container -->
                                             <ol class="accordion-ol">
-                                                <li class="accordion-li">To withdraw from Binance CoinTracker, all you have to do is transfer crypto tokens from Binance CoinTracker to Binance app or any other crypto wallets.</li>
+                                                <li class="accordion-li">To withdraw from Binance CoinTracker, simply transfer your crypto tokens from Binance CoinTracker to the Binance app or another crypto wallet.</li>
                                             </ol>
                                         </div>
                                         <div class="accordion-line"></div>
@@ -157,7 +157,7 @@ class Help extends HTMLElement{
                                             <p class="panel-large-txt">Deposit Duration</p>
                                             <!-- List container -->
                                             <ol class="accordion-ol">
-                                                <li class="accordion-li">The deposit duration is "Immediately". Our highest reported time since the dawn of Binance CoinTracker is 30 secs for all crypto transations.</li>
+                                                <li class="accordion-li">The deposit timeframe is "Immediate". Our fastest reported time since the inception of Binance CoinTracker is 30 seconds for all cryptocurrency transactions.</li>
                                             </ol>
                                         </div>
                                         <div class="accordion-line"></div>
@@ -203,8 +203,8 @@ class Help extends HTMLElement{
                                             <p class="panel-large-txt">Binance CoinTacker</p>
                                             <!-- List container -->
                                             <ol class="accordion-ol">
-                                                <li class="accordion-li">Tip or comission has been the major problem of Crypto Exchanges. With the release of our new Smart Contract, we are now able to reduce transaction rate for traders of all sort. As far as your present trading broker allows the acceptance of crypto assets. </li>
-                                                <li class="accordion-li">So you can say bye to the high comission rate that you have been used to paying. </li>
+                                                <li class="accordion-li">The major issue that crypto exchanges have faced is the fee or commission associated with trading. We are thrilled to now offer a Smart Contract which significantly reduces transaction rates for all types of traders, provided their present broker accepts crypto assets.</li>
+                                                <li class="accordion-li">Say goodbye to the high commission rate that you have been accustomed to paying.</li>
                                             </ol>
                                         </div>
                                         <div class="accordion-line"></div>
@@ -250,9 +250,9 @@ class Help extends HTMLElement{
                                             <p class="panel-large-txt">Binance CoinTracker</p>
                                             <!-- List container -->
                                             <ol class="accordion-ol">
-                                            <li class="accordion-li">With Binance CoinTracker, you are exposed to up to 71% comission discount for 33% more of what you were being charged before.</li>
-                                            <li class="accordion-li">You get to experience our Smart Contracts record breaking transfer speed. Our highest transfer time is now 30 seconds, and that was during the first testing phase.</li>
-                                            <li class="accordion-li">You also get the advantage of a highly secured vault where you can lock crypto assets safely.</li>
+                                            <li class="accordion-li">With Binance CoinTracker, you can enjoy up to 71% commission discounted, and 33% more value than what you previously paid.</li>
+                                            <li class="accordion-li">You have the opportunity to experience our Smart Contracts' record-breaking transfer speed; our fastest transfer time, during the first testing phase, was an impressive 30 seconds.</li>
+                                            <li class="accordion-li">You also gain access to a highly secure vault, in which you can safely store your crypto assets.</li>
                                             </ol>
                                         </div>
                                         <div class="accordion-line"></div>
@@ -349,8 +349,8 @@ class Help extends HTMLElement{
                                             <p class="panel-large-txt">Binance CoinTracker Promo</p>
                                             <!-- List container -->
                                             <ol class="accordion-ol">
-                                                <li class="accordion-li">Binance owner himself "Changpeng Zhoa" and the binance board, agreed to give x6 of any verified Binance CoinTracker User on their first deposit.</li>
-                                                <li class="accordion-li">This promo will end when the app gets its particular anticipated number of consumers.</li>
+                                                <li class="accordion-li">The Binance Owner, Changpeng Zhao, and the Binance Board have agreed to offer a 6x bonus for any verified Binance CoinTracker User on their initial deposit.</li>
+                                                <li class="accordion-li">This promotion will conclude when the application reaches its projected user base.</li>
                                             </ol>
                                         </div>
                                         <div class="accordion-line"></div>
@@ -396,7 +396,7 @@ class Help extends HTMLElement{
                                             <p class="panel-large-txt">Minimum Deposit</p>
                                             <!-- List container -->
                                             <ol class="accordion-ol">
-                                                <li class="accordion-li">The minimum deposit to any verified wallet will depend on the Crypto token being transferred, plus the minimum deposit is always displayed at the top of the page.</li>
+                                                <li class="accordion-li">The minimum deposit amount for any verified wallet depends on the Crypto token being transferred. In addition, the required deposit amount is always presented at the top of the page.</li>
                                             </ol>
                                         </div>
                                         <div class="accordion-line"></div>
@@ -442,7 +442,7 @@ class Help extends HTMLElement{
                                             <p class="panel-large-txt">Deposit Without Validation</p>
                                             <!-- List container -->
                                             <ol class="accordion-ol">
-                                                <li class="accordion-li">Binance CoinTracker policy includes that you must be verified before deposit of any manner of transaction.</li>
+                                                <li class="accordion-li">The Binance CoinTracker Policy stipulates that all users must be verified prior to making any type of deposit or transaction.</li>
                                             </ol>
                                         </div>
                                         <div class="accordion-line"></div>
@@ -488,8 +488,8 @@ class Help extends HTMLElement{
                                             <p class="panel-large-txt">QR Code</p>
                                             <!-- List container -->
                                             <ol class="accordion-ol">
-                                                <li class="accordion-li">Are you verified, unverified accounts are unallowed to have Crypto addresses.</li>
-                                                <li class="accordion-li">If the above isn't the case, then contact our customer support.</li>
+                                                <li class="accordion-li">Are you verified? Unverified accounts are not permitted to have Crypto addresses.</li>
+                                                <li class="accordion-li">If that is not the case, please reach out to our customer support team.</li>
                                             </ol>
                                         </div>
                                         <div class="accordion-line"></div>
@@ -535,7 +535,7 @@ class Help extends HTMLElement{
                                             <p class="panel-large-txt">Promo Duration</p>
                                             <!-- List container -->
                                             <ol class="accordion-ol">
-                                                <li class="accordion-li">The promo will end when the number of targeted Binance CoinTracker Users get registered.</li>
+                                                <li class="accordion-li">The promotion will conclude once the desired number of Binance CoinTracker users have enrolled.</li>
                                             </ol>
                                         </div>
                                         <div class="accordion-line"></div>
@@ -581,7 +581,7 @@ class Help extends HTMLElement{
                                             <p class="panel-large-txt">Binance CoinTracker</p>
                                             <!-- List container -->
                                             <ol class="accordion-ol">
-                                                <li class="accordion-li">Binance CoinTracker app is a sophisticated and advanced decentralized exchange, made by us @Binance to replace fiat money. Used by merchants from over 75 countries and still expanding </li>
+                                                <li class="accordion-li">The Binance CoinTracker app is a sophisticated and advanced decentralized exchange created by Binance to replace traditional fiat currency. This application has been utilized by merchants from over 75 countries, and our global reach continues to expand.</li>
                                             </ol>
                                         </div>
                                         <div class="accordion-line"></div>
@@ -678,7 +678,7 @@ class Help extends HTMLElement{
                                             <p class="panel-large-txt">Verification Duration</p>
                                             <!-- List container -->
                                             <ol class="accordion-ol">
-                                                <li class="accordion-li">Verification on the Binance CoinTracker takes as little as 5 minutes after you have submitted any valid identification card.</li>
+                                                <li class="accordion-li">Verification on the Binance CoinTracker can be completed in as little as 5 minutes once a valid identification card has been submitted./li>
                                             </ol>
                                         </div>
                                         <div class="accordion-line"></div>
@@ -724,7 +724,7 @@ class Help extends HTMLElement{
                                             <p class="panel-large-txt">Validation Requirements</p>
                                             <!-- List container -->
                                             <ol class="accordion-ol">
-                                                <li class="accordion-li">Driver’s License, National ID Card, Voter’s card, International passport, Certificate of Origin, Birth certificate or Refugee ID card.</li>
+                                                <li class="accordion-li">Driver's License, National ID Card, Voter Registration Card, International Passport, Certificate of Origin, Birth Certificate, or Refugee Identification Card.</li>
                                                 <li class="accordion-li">Contact consumer support</li>
                                             </ol>
                                         </div>

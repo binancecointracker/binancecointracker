@@ -32,7 +32,7 @@ class Rules extends HTMLElement{
                                 
                                 <!--  -->
                                 <p class="line-height-zero rulepolicy-lg-txt">1.How do referrals work?</p>
-                                <p class="rulespolicy-sm-txt">When your friend registers an account and makes a deposit through the link you've shared, you will get x2 of their first deposit and your referred friend gets x6 their deposit (x8 will be given out by Binance in total).</p>
+                                <p class="rulespolicy-sm-txt">When your referred friend registers an account with Binance and makes a deposit through the link you have shared, both of you will benefit - you will receive double their first deposit amount, and your referred friend will receive six times the value they have deposited (for a total of eight times the initial deposit).</p>
                                 
                                 <!--  -->
                                 <p class="line-height-zero rulepolicy-lg-txt">2. Who is a valid user?</p>
@@ -42,15 +42,15 @@ class Rules extends HTMLElement{
                                 
                                 <!--  -->
                                 <p class="line-height-zero rulepolicy-lg-txt">3.About Promo reward</p>
-                                <p class="rulespolicy-sm-txt">After your friend has been invited to register and has successfully made his first deposit, both of you will get your rewards immediately. Our highest time rate is 20 seconds.</p>
+                                <p class="rulespolicy-sm-txt">Once your friend has been invited to register and successfully made their initial deposit, both of you will be immediately rewarded. Our rate is the highest, with 20 seconds.</p>
                                 
                                 <!--  -->
                                 <p class="line-height-zero rulepolicy-lg-txt">4.How can I check my referrals?</p>
-                                <p class="rulespolicy-sm-txt">To know the number or history of your invited friends, you go to select Home > Menu > Refer friend > Referral History, to see the person you invited if they've made a deposit.</p>
+                                <p class="rulespolicy-sm-txt">To determine the number or history of your invited friends, you can go to Home > Menu > Refer friend > Referral History to see if any of the people you have invited have made a deposit.</p>
                                 
                                 <!--  -->
                                 <p class="line-height-zero rulepolicy-lg-txt">5.Other</p>
-                                <p class="rulespolicy-sm-txt">A new user can only bind the inviter once, and one device and one account can only participate once. For suspicious invitation, Binance reserves the right to suspend the reward. There are many uncertain factors on the Internet, please understand and agree that, due to force majeure, network, communication line failure, large-scale computer paralysis, and large-scale cheating during the event, Binance CoinTracker has the right to take measures including but not limited to eliminating abnormalities or adjusting, suspending or canceling this activity through various methods and Binance CoinTracker will not be liable for any losses caused to you.</p>
+                                <p class="rulespolicy-sm-txt">A new user can only be bound by the inviter once, and one device and account can only participate once. Should there be any suspicious invitations, Binance reserves the right to withhold any rewards that may apply. There are a variety of uncertain factors on the internet, so please understand and accept that Binance CoinTracker holds the right to take measures such as eliminating irregularities or adjusting, suspending or canceling this event via different means due to unforeseen occurrences like force majeure, network issues, communication line failure, massive computer paralysis or large-scale cheating during this activity - without being held liable for any consequent losses incurred by you.</p>
                                 
                             </div>
                         <!-- -------------------- -------------------- -------------------- -->

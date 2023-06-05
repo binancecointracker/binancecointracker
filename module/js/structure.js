@@ -1600,7 +1600,7 @@
                 profile.style.display = "none";
                 receive.style.display = "none";
                 rememberpassword.style.display = "none";
-                rules.style.display = "flex"; // -------------------- Container --------------------
+                rules.style.display = "none";
                 sendselect.style.display = "none";
                 receiveselect.style.display = "none";
                 send.style.display = "none";
@@ -1608,7 +1608,7 @@
                 verification.style.display = "none";
                 userinfoslide.style.display = "none";
                 invite.style.display = "none";
-                refhis.style.display = "none";
+                refhis.style.display = "flex"; // -------------------- Container --------------------
 
                
                 function isVerifiedMenu() {
