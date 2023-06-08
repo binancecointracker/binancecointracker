@@ -20,7 +20,7 @@ firebase.auth().onAuthStateChanged((user) => {
                         var personalBalance = document.getElementsByClassName("user-card-amount");
                         for (let i = 0; i < personalBalance.length; i++) {
                             personalBalance[i].innerHTML = `
-                                $${firebasefiledirsub.balance.toFixed(2).toLocaleString()}
+                                $${firebasefiledirsub.balance}
                             `
                         }
                     } else {
