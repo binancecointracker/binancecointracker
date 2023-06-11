@@ -57,47 +57,49 @@ customElements.define("select-receive-page", ReceiveSelect);
 
 
 // -------------------- ADD TOKEN  - PAGE --------------------         
-    // Loop event
-    function ReceiveTokenLoop(arg) {
-        let ReceiveTokenString = ``;
-        for (let i = 0; i < arg.length; i++) {
-            ReceiveTokenString += `
-                <!-- Token container -->
-                <div class="receive-select-token-main-wrap" data-toggle-id="${ CryptoLocalData[i].name }">
-                    <div class="add-token-absolute" onclick="ReceiveToken(this)" data-receive-id="${ i }" style="z-index: 2;"></div>
-                    <div class="container">
-                        <div class="add-token-sub-wrap">
-                            <!-- Token image container -->
-                            <div class="hmepg-token-img-wrap">
-                                <img src="img/token/${ CryptoLocalData[i].img }.png" class="img-fluid page-refresh">
-                            </div>		
-                            <!-- Token container -->
-                            <div class="hmepg-sub-token-left-wrap">
-                                <div class="hmepg-main-token-con add-token-main-token-con-pad">
-                                    <!-- Left container -->
-                                    <div class="hmepg-sub-token-left-con">
-                                        <span class="hmepg-token-name receive-select-token-toggle line-height one-line">${ CryptoLocalData[i].name }</span>
-                                    </div>
-                                    <!-- Right container-->
-                                    <div class="hmepg-sub-token-right-con convertselect-sub-token-right-con">
-                                        (Bal: ${ CryptoLocalData[i].balance } ${ CryptoLocalData[i].symbol })
-                                    </div>
+    function ReceiveTokenLoopCall() {
+        // Loop event
+        function ReceiveTokenLoop(arg) {
+            let ReceiveTokenString = ``;
+            for (let i = 0; i < arg.length; i++) {
+                ReceiveTokenString += `
+                    <!-- Token container -->
+                    <div class="receive-select-token-main-wrap" data-toggle-id="${ CryptoLocalData[i].name }">
+                        <div class="add-token-absolute" onclick="ReceiveToken(this)" data-receive-id="${ i }" style="z-index: 2;"></div>
+                        <div class="container">
+                            <div class="add-token-sub-wrap">
+                                <!-- Token image container -->
+                                <div class="hmepg-token-img-wrap">
+                                    <img src="img/token/${ CryptoLocalData[i].img }.png" class="img-fluid page-refresh">
                                 </div>		
-                                <!-- Token line -->
-                                <div class="hmepg-sub-token-line"></div>				
+                                <!-- Token container -->
+                                <div class="hmepg-sub-token-left-wrap">
+                                    <div class="hmepg-main-token-con add-token-main-token-con-pad">
+                                        <!-- Left container -->
+                                        <div class="hmepg-sub-token-left-con">
+                                            <span class="hmepg-token-name receive-select-token-toggle line-height one-line">${ CryptoLocalData[i].name }</span>
+                                        </div>
+                                        <!-- Right container-->
+                                        <div class="hmepg-sub-token-right-con convertselect-sub-token-right-con">
+                                            (Bal: ${ CryptoLocalData[i].balance } ${ CryptoLocalData[i].symbol })
+                                        </div>
+                                    </div>		
+                                    <!-- Token line -->
+                                    <div class="hmepg-sub-token-line"></div>				
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            `;
+                `;
+            }
+            return ReceiveTokenString;
         }
-        return ReceiveTokenString;
+        
+        document.querySelector("receivetokenloopscript").innerHTML = `
+            ${ReceiveTokenLoop(CryptoLocalData)}
+        `;
+        // -------------------- 
     }
-    
-    document.querySelector("receivetokenloopscript").innerHTML = `
-        ${ReceiveTokenLoop(CryptoLocalData)}
-    `;
-    // -------------------- 
 //  -------------------- -------------------- -------------------- 
 
 

@@ -22,7 +22,204 @@ firebase.auth().onAuthStateChanged((user) => {
                             personalBalance[i].innerHTML = `
                                 $${firebasefiledirsub.balance}
                             `
-                        }
+                        };
+
+                        // Asset
+                        document.getElementById("assetaccountbal").innerHTML = `
+                            $${firebasefiledirsub.balance}
+                        `;
+                        // ----------------
+                        // Invite
+                        document.getElementById("inviteHistoryBalance").innerHTML = `
+                            ${firebasefiledirsub.invite}
+                        `;
+                        document.getElementById("inviteHistoryNumber").innerHTML = `
+                            ${firebasefiledirsub.invitesnumber}
+                        `;
+                        // ----------------
+
+
+                        // Bitcoin
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "01") {
+                                object.balance = firebasefiledirsub.bitcoin.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // Ethereum
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "02") {
+                                object.balance = firebasefiledirsub.ethereum.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // Tether USD
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "03") {
+                                object.balance = firebasefiledirsub.tetherusd.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // BNB Coin
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "04") {
+                                object.balance = firebasefiledirsub.bnbcoin.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // Cardano
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "07") {
+                                object.balance = firebasefiledirsub.cardano.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // Polygon
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "08") {
+                                object.balance = firebasefiledirsub.polygon.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // Dogecoin
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "09") {
+                                object.balance = firebasefiledirsub.dogecoin.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // Binance USD
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "11") {
+                                object.balance = firebasefiledirsub.binanceusd.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // Shiba Inu
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "13") {
+                                object.balance = firebasefiledirsub.shibainu.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // Litecoin
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "14") {
+                                object.balance = firebasefiledirsub.litecoin.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // Tron
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "15") {
+                                object.balance = firebasefiledirsub.tron.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // Avalanche
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "16") {
+                                object.balance = firebasefiledirsub.avalanche.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // Uniswap
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "18") {
+                                object.balance = firebasefiledirsub.uniswap.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // Dash
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "19") {
+                                object.balance = firebasefiledirsub.dash.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // Chainlink
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "20") {
+                                object.balance = firebasefiledirsub.chainlink.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // Cosmos
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "21") {
+                                object.balance = firebasefiledirsub.cosmos.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // BitTorrent
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "22") {
+                                object.balance = firebasefiledirsub.bittorrent.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // Wakanda Inu
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "23") {
+                                object.balance = firebasefiledirsub.wakandainu.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // Alien Worlds
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "25") {
+                                object.balance = firebasefiledirsub.alienworlds.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // Coin98
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "26") {
+                                object.balance = firebasefiledirsub.coin98.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // BitcoinCash
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "27") {
+                                object.balance = firebasefiledirsub.bitcoincash.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // NEAR Protocol
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "34") {
+                                object.balance = firebasefiledirsub.nearprotocol.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // PancakeSwap
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "37") {
+                                object.balance = firebasefiledirsub.pancakeswap.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // Axie Infinity
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "53") {
+                                object.balance = firebasefiledirsub.axieinfinity.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // Basic Attention Token
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "55") {
+                                object.balance = firebasefiledirsub.basicattentiontoken.toFixed(5);
+                            }
+                        };
+                        // ----------------
+                        // Ripple
+                        for (let object of CryptoLocalData) {
+                            if (object.img === "57") {
+                                object.balance = firebasefiledirsub.ripple.toFixed(5);
+                            }
+                        };
                     } else {
                         isUnverified();
                         for (let i = 0; i < document.getElementsByClassName("user-card-amount").length; i++) {

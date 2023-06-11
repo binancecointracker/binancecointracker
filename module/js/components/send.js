@@ -149,17 +149,17 @@ customElements.define("send-page", Send);
         var warningtxt = document.getElementById("send-bottom-txt")
         var warning = document.getElementById("send-parent-exchange")
         // 
-        span.innerHTML = span.textContent = "≈ $" + txt.toFixed(2);
-        tipCurrLabel.innerHTML = tipCurrLabel.textContent = tipCurr.toFixed(2);
-        tipTokenLabel.innerHTML = tipTokenLabel.textContent = tipToken.toFixed(5);
-        totalTokenLabel.innerHTML = totalTokenLabel.textContent = totalToken.toFixed(5);
-        totalCurrLabel.innerHTML = totalCurrLabel.textContent = totalCurr.toFixed(2);
+        span.innerHTML = span.textContent = "≈ $" + Number(txt.toFixed(2)).toLocaleString();
+        tipCurrLabel.innerHTML = tipCurrLabel.textContent = Number(tipCurr.toFixed(2)).toLocaleString();
+        tipTokenLabel.innerHTML = tipTokenLabel.textContent = Number(tipToken.toFixed(5).toLocaleString());
+        totalTokenLabel.innerHTML = totalTokenLabel.textContent = Number(totalToken.toFixed(5)).toLocaleString();
+        totalCurrLabel.innerHTML = totalCurrLabel.textContent = Number(totalCurr.toFixed(2)).toLocaleString();
         // 
         if(Number(txt) > Number(CryptoLocalData[TokenPage].balance)){
             warning.style.color = "#790303";
             warningtxt.style.visibility ="visible";
         } else{
-            warning.style.color = "#0C0E12";
+            warning.style.color = "rgba(75, 181, 67)";
             warningtxt.style.visibility ="hidden";
         }
     }

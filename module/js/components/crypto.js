@@ -1,6 +1,7 @@
 // --------------------  - PAGE --------------------    
     var cryptoCompare = '3786e2cde9ae5f0dca5f9984bdef3491fcb799327e150e9d12385065645d524c';
     //  
+    var binanceBTC;
     var CryptoLocalData = [
         {
             balance: "0.00000",
@@ -1037,7 +1038,14 @@
     // -------------------- 
 
     //  
+    var binanceCalculate;
+    var binanceCounted;
+    function tokenDollar() {
+        binanceCalculate = CryptoLocalData[TokenPage].balance * Number(CryptoLocalData[TokenPage].price);
+        binanceCounted = Number(binanceCalculate.toFixed(2)).toLocaleString();
+    }
     function tokenmainChanger() {
+        tokenDollar();
         document.getElementById("token-ccc-header-txt").innerHTML = `
             ${ CryptoLocalData[TokenPage].name } (${ CryptoLocalData[TokenPage].symbol })
         `;
@@ -1051,7 +1059,7 @@
             <img src="img/token/${ CryptoLocalData[TokenPage].img }.png" class="img-fluid page-refresh">
         `;
         document.getElementById("token-ccc-exchange-rate").innerHTML = `
-            ${ CryptoLocalData[TokenPage].balance } ${ CryptoLocalData[TokenPage].symbol } ≈ $ <label>0.00</label>
+            ${ CryptoLocalData[TokenPage].balance } ${ CryptoLocalData[TokenPage].symbol } ≈ $<span>${binanceCounted}</span>
         `;
         document.getElementById("token-ccc-transfer-con").innerHTML = `
             <span class="token-transfer">In: </span>0.00000 ${ CryptoLocalData[TokenPage].symbol }

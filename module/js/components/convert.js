@@ -62,7 +62,7 @@ class Convert extends HTMLElement{
                                         </div>
                                             
                                         <!-- Available balance container -->
-                                        <span id="convert-available-txt" class="convert-available-txt">Available Balance: ${ CryptoLocalData[from].balance } ${ CryptoLocalData[from].symbol }</span>
+                                        <span id="convert-available-txt" class="convert-available-txt">Available Balance: Choose Token</span>
                                             
                                         <!-- Percentage buttons-->
                                         <div class="row">

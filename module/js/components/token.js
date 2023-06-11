@@ -51,7 +51,7 @@ class Token extends HTMLElement{
                                         <div id="token-ccc-logo-img" class="token-logo-img">
                                             <img src="img/token/${ CryptoLocalData[TokenPage].img }.png" class="img-fluid page-refresh">
                                         </div>
-                                        <div id="token-ccc-exchange-rate" class="token-exchange-rate page-refresh">${ CryptoLocalData[TokenPage].balance } ${ CryptoLocalData[TokenPage].symbol } ≈ $ <label>0.00</label></div>
+                                        <div id="token-ccc-exchange-rate" class="token-exchange-rate page-refresh one-line">${ CryptoLocalData[TokenPage].balance } ${ CryptoLocalData[TokenPage].symbol } ≈ $<span>0.00</span></div>
                                     </div>
                                     
                                     <!-- Header buttons section -->

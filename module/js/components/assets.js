@@ -74,7 +74,7 @@ class Assets extends HTMLElement{
                                         </div>
                                         
                                         <!-- Asset card second set of containers -->
-                                        <div class="assets-card-value">$0.00</div>
+                                        <div class="assets-card-value"><span id="assetaccountbal">$0.00</span></div>
                                         <div class="assets-card-value-txt one-line">Binance Coin Vault</div>
                                             
                                         <div class="assets-card-second-row">

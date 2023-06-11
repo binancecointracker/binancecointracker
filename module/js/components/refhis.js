@@ -26,13 +26,13 @@ class Refhis extends HTMLElement{
                                 <!-- Left -->
                                 <div class="refhis-card-txt-con">
                                     <span class="refhis-card-sm-txt">Earn Money</span>
-                                    <span class="refhis-card-lg-txt"><span class="refhis-card-lg-b4">$</span>0</span>
+                                    <span class="refhis-card-lg-txt"><span class="refhis-card-lg-b4">$</span><span id="inviteHistoryBalance">0</span></span>
                                 </div>
                                 
                                 <!-- Right -->
                                 <div class="refhis-card-txt-con">
                                     <span class="refhis-card-sm-txt">Invites</span>
-                                    <span class="refhis-card-lg-txt">- -</span>
+                                    <span id="inviteHistoryNumber" class="refhis-card-lg-txt">- -</span>
                                 </div>
                             </div>
                         </div>

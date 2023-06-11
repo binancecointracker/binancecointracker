@@ -1007,6 +1007,7 @@
         //  Home to select page     ##### 9
             function HomeToSendSelect() {
                 thirdContainer();
+                SendTokenLoopCall()
                 
                 //  first container
                 SettingsFirstClose(); 
@@ -1055,6 +1056,7 @@
         //  Home to select page     ##### 9
             function HomeToReceiveSelect() {
                 thirdContainer();
+                ReceiveTokenLoopCall();
                 
                 //  first container
                 SettingsFirstClose(); 
@@ -1103,6 +1105,7 @@
         //  Home to Convert page     ##### 9
             function HomeToConvert() {
                 secondContainer();
+                ConvertTokenLoopCall();
                 
                 //  first container
                 SettingsFirstClose(); 
@@ -1484,6 +1487,7 @@
         //  Menu to convert token page     ##### 3
             function MenuToConvert() {
                 secondContainer();
+                ConvertTokenLoopCall();
 
                 //  first container
                 SettingsFirstClose(); 
@@ -3366,6 +3370,7 @@
         //  Home to token main land page     ##### 8
             function ConvertToConvert() {
                 thirdContainer();
+                ConvertTokenLoopCall();
                 
                 //  first container
                 SettingsFirstClose(); 

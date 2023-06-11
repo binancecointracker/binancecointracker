@@ -83,54 +83,56 @@ class ConvertSelect extends HTMLElement{
     }
 }
 
-customElements.define("convert-select-page", ConvertSelect);
+    customElements.define("convert-select-page", ConvertSelect);
 
 
 
 
 
-// -------------------- ADD TOKEN  - PAGE --------------------         
-    // Loop event
-    function ConvertTokenLoop(arg) {
-        let ConvertTokenString = ``;
-        for (let i = 0; i < arg.length; i++) {
-            ConvertTokenString += `
-                <!-- Token container -->
-                <div class="convert-select-token-main-wrap" data-toggle-id="${ CryptoLocalData[i].name }">
-                    <div class="add-token-absolute" onclick="convertSwapToken(this)" data-swap-id="${ i }" style="z-index: 3;"></div>
-                    <div class="container">
-                        <div class="add-token-sub-wrap">
-                            <!-- Token image container -->
-                            <div class="hmepg-token-img-wrap">
-                                <img src="img/token/${ CryptoLocalData[i].img }.png" class="img-fluid page-refresh">
-                            </div>		
-                            <!-- Token container -->
-                            <div class="hmepg-sub-token-left-wrap">
-                                <div class="hmepg-main-token-con add-token-main-token-con-pad">
-                                    <!-- Left container -->
-                                    <div class="hmepg-sub-token-left-con">
-                                        <span class="hmepg-token-name convert-select-token-toggle line-height one-line">${ CryptoLocalData[i].name }</span>
-                                    </div>
-                                    <!-- Right container-->
-                                    <div class="hmepg-sub-token-right-con convertselect-sub-token-right-con">
-                                        (Bal: ${ CryptoLocalData[i].balance } ${ CryptoLocalData[i].symbol })
-                                    </div>
+// -------------------- ADD TOKEN  - PAGE --------------------   
+    function ConvertTokenLoopCall() { 
+        // Loop event
+        function ConvertTokenLoop(arg) {
+            let ConvertTokenString = ``;
+            for (let i = 0; i < arg.length; i++) {
+                ConvertTokenString += `
+                    <!-- Token container -->
+                    <div class="convert-select-token-main-wrap" data-toggle-id="${ CryptoLocalData[i].name }">
+                        <div class="add-token-absolute" onclick="convertSwapToken(this)" data-swap-id="${ i }" style="z-index: 3;"></div>
+                        <div class="container">
+                            <div class="add-token-sub-wrap">
+                                <!-- Token image container -->
+                                <div class="hmepg-token-img-wrap">
+                                    <img src="img/token/${ CryptoLocalData[i].img }.png" class="img-fluid page-refresh">
                                 </div>		
-                                <!-- Token line -->
-                                <div class="hmepg-sub-token-line"></div>				
+                                <!-- Token container -->
+                                <div class="hmepg-sub-token-left-wrap">
+                                    <div class="hmepg-main-token-con add-token-main-token-con-pad">
+                                        <!-- Left container -->
+                                        <div class="hmepg-sub-token-left-con">
+                                            <span class="hmepg-token-name convert-select-token-toggle line-height one-line">${ CryptoLocalData[i].name }</span>
+                                        </div>
+                                        <!-- Right container-->
+                                        <div class="hmepg-sub-token-right-con convertselect-sub-token-right-con">
+                                            (Bal: ${ CryptoLocalData[i].balance } ${ CryptoLocalData[i].symbol })
+                                        </div>
+                                    </div>		
+                                    <!-- Token line -->
+                                    <div class="hmepg-sub-token-line"></div>				
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            `;
+                `;
+            }
+            return ConvertTokenString;
         }
-        return ConvertTokenString;
+        
+        document.querySelector("converttokenloopscript").innerHTML = `
+            <div>${ConvertTokenLoop(CryptoLocalData)}</div>
+        `;
+        // -------------------- 
     }
-    
-    document.querySelector("converttokenloopscript").innerHTML = `
-        <div>${ConvertTokenLoop(CryptoLocalData)}</div>
-    `;
-    // -------------------- 
 //  -------------------- -------------------- -------------------- `.
 
 
