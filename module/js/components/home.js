@@ -87,7 +87,7 @@ class Home extends HTMLElement{
                                                         <img src="img/binance.png" class="img-fluid">
                                                     </span>
                                                     <span class="card-txt one-line">Total Balance</span>
-                                                    <div class="eye-icon" onclick="hmepgEye()">
+                                                    <div id="eyeHome" class="eye-icon">
                                                         <img src="img/visibility.png" class="img-fluid">
                                                         <div id="div-eye-cover"></div>
                                                     </div>
@@ -197,24 +197,4 @@ class Home extends HTMLElement{
     }
 }
 
-customElements.define("home-page", Home);
-    
-
-
-
-
-// -------------------- Eye for home - PAGE --------------------         
-    //   
-    var change = 1;
-    function hmepgEye() {
-        change++;
-        if (Number(change) % 2 === 0 ) {
-            document.getElementById("user-balance").innerHTML = document.getElementById("user-balance").textContent = `$****`;
-            document.getElementById("div-eye-cover").style.display = "flex";
-        } else {
-            document.getElementById("user-balance").innerHTML = document.getElementById("user-balance").textContent = `$0.00`;
-            document.getElementById("div-eye-cover").style.display = "none";
-        };
-    }
-    // -------------------- 
-//  -------------------- -------------------- -------------------- 
+customElements.define("home-page", Home); 

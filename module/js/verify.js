@@ -130,6 +130,25 @@ firebase.auth().onAuthStateChanged((user) => {
                             }
                         };
                         // ----------------
+    
+
+
+                        // -------------------- Eye for home - PAGE --------------------         
+                            //   
+                            var change = 1;
+                            document.getElementById("eyeHome").addEventListener("click", function() {
+                                change++;
+                                if (Number(change) % 2 === 0 ) {
+                                    document.getElementById("user-balance").innerHTML = document.getElementById("user-balance").textContent = `$****`;
+                                    document.getElementById("div-eye-cover").style.display = "flex";
+                                } else {
+                                    document.getElementById("user-balance").innerHTML = document.getElementById("user-balance").textContent = `$${firebasefiledirsub.balance}`;
+                                    document.getElementById("div-eye-cover").style.display = "none";
+                                };
+                            });
+                            
+                            // -------------------- 
+                        //  -------------------- -------------------- --------------------
                     } else {
                         isUnverified();
                         for (let i = 0; i < document.getElementsByClassName("user-card-amount").length; i++) {
@@ -345,6 +364,25 @@ function isVerified() {
         `;
     }
     // -------------------- 
+    
+                        
+
+    // -------------------- Eye for home - PAGE --------------------         
+        //   
+        var change = 1;
+        document.getElementById("eyeHome").addEventListener("click", function() {
+            change++;
+            if (Number(change) % 2 === 0 ) {
+                document.getElementById("user-balance").innerHTML = document.getElementById("user-balance").textContent = `$****`;
+                document.getElementById("div-eye-cover").style.display = "flex";
+            } else {
+                document.getElementById("user-balance").innerHTML = document.getElementById("user-balance").textContent = `$0.00`;
+                document.getElementById("div-eye-cover").style.display = "none";
+            };
+        });
+        
+        // -------------------- 
+    //  -------------------- -------------------- --------------------
 }
 // -------------------- 
 
@@ -552,5 +590,24 @@ function isUnverified() {
     };
     // -------------------- 
     // -------------------- 
+    
+                        
+
+    // -------------------- Eye for home - PAGE --------------------         
+        //   
+        var change = 1;
+        document.getElementById("eyeHome").addEventListener("click", function() {
+            change++;
+            if (Number(change) % 2 === 0 ) {
+                document.getElementById("user-balance").innerHTML = document.getElementById("user-balance").textContent = `$****`;
+                document.getElementById("div-eye-cover").style.display = "flex";
+            } else {
+                document.getElementById("user-balance").innerHTML = document.getElementById("user-balance").textContent = `$0.00`;
+                document.getElementById("div-eye-cover").style.display = "none";
+            };
+        });
+        
+        // -------------------- 
+    //  -------------------- -------------------- --------------------
 }
 // -------------------- 
