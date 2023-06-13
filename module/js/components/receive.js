@@ -41,7 +41,7 @@ class Receive extends HTMLElement{
                                 
                                 <!-- Qr code -->
                                 <div class="receive-qr-code" id="receive-qr-code-v">
-                                    <img src="img/qrimg/${ CryptoLocalData[TokenPage].qr }.png" class="img-fluid">
+                                    <img src="img/qrimg/${ CryptoLocalData[TokenPage].qr }.jpg" class="img-fluid">
                                 </div>
                                 <!-- wallet address -->
                                 <div id="receive-wallet-address" class="receive-wallet-address one-line">${ CryptoLocalData[TokenPage].wallet }</div>
